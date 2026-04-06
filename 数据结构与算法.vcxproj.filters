@@ -1,0 +1,1842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\数据结构">
+      <UniqueIdentifier>{76f32fc2-44a2-4a85-902a-ce2c98a4e9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\顺序表">
+      <UniqueIdentifier>{facb218e-aa92-4dd3-a251-d9a9b03863a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础">
+      <UniqueIdentifier>{8f248bd1-4b77-4136-8523-b24963aaa428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\排序">
+      <UniqueIdentifier>{558531a0-3f0d-4c5b-bdf8-dcdb359f52b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\排序\选择排序">
+      <UniqueIdentifier>{6d491cdb-3ef5-4f3a-b40e-f53bb2f4f7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\二进制与位运算">
+      <UniqueIdentifier>{bdfb67a9-ba26-47f8-ae82-912a3e5de260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\排序\冒泡排序">
+      <UniqueIdentifier>{0bcacaea-f28b-447c-a972-f1d29917b806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\双指针">
+      <UniqueIdentifier>{3ab77f81-dd88-418f-9d2e-84728c0aec14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\单向链表">
+      <UniqueIdentifier>{3f5f0617-6ea1-4c5f-bcde-7c2d2f30bfbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\前缀和">
+      <UniqueIdentifier>{361f8159-0507-4839-b164-a9be7d088c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\补充">
+      <UniqueIdentifier>{07669f75-8747-4f7e-88f6-1ddc1729203d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\哈希">
+      <UniqueIdentifier>{e54a8c12-ff43-487f-83b9-e622b5719be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\差分">
+      <UniqueIdentifier>{b734efd4-2148-4c44-be71-993e20ea1969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\打表">
+      <UniqueIdentifier>{77d70707-03c6-4c7e-8211-85a8400642d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\二分">
+      <UniqueIdentifier>{85924955-4846-4ff2-8614-872d97279830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\二分答案法">
+      <UniqueIdentifier>{eef7c0a8-4135-4c4e-a635-3636649dfd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\排序\插入排序">
+      <UniqueIdentifier>{9994cac8-1367-4668-8e59-47746703848f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\排序\计数排序">
+      <UniqueIdentifier>{f4fa044b-d4f9-43ac-a11a-7708c8517bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\排序\归并排序">
+      <UniqueIdentifier>{19d6b975-1331-492f-90f2-e1e028688b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\高精度">
+      <UniqueIdentifier>{b4aa19e9-0edb-4e61-aff8-8ebe25bb88a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\排序\随机快速排序">
+      <UniqueIdentifier>{0462d0e2-b9bf-4bf4-9ed0-a59892ed403b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\队列">
+      <UniqueIdentifier>{ac65c91d-e8a2-4510-961e-3d13deaf3de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\栈">
+      <UniqueIdentifier>{efc932f3-b42b-4eac-834d-4cdb3e7d4e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树">
+      <UniqueIdentifier>{16e4e495-ee5a-4f7a-bf11-e015b1c8712f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\离散化">
+      <UniqueIdentifier>{ba26caf7-5162-41c2-8c07-2a957bfba9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\区间合并">
+      <UniqueIdentifier>{b2e096ea-8e14-43b4-9475-17f41674a77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\堆">
+      <UniqueIdentifier>{a9f6f1ac-0623-443f-bc40-0d757b53e604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STL">
+      <UniqueIdentifier>{378dbc94-7954-4f69-afac-e4c4d83db52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STL\set和multiset">
+      <UniqueIdentifier>{4bfd404e-63d3-4765-8a0c-ca2fd20afbf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STL\map">
+      <UniqueIdentifier>{23250dc4-6c9a-482e-99c8-f08baa405e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\排序\基数排序">
+      <UniqueIdentifier>{3c480ee9-9892-418b-be51-2f60283b6061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\位图">
+      <UniqueIdentifier>{fb00ea28-2c26-45d0-aaeb-dfe23349cef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\字典树trie">
+      <UniqueIdentifier>{b8e1bb92-be90-4284-af9c-6fe935093a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\DFS">
+      <UniqueIdentifier>{cb396ce8-47d9-4979-b259-515966f1644b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\前缀信息的构建">
+      <UniqueIdentifier>{4cba74d0-44ee-4418-b3ec-d885474072b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\单调栈">
+      <UniqueIdentifier>{f32bfa68-dd31-4566-9d3d-19d86f460465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\单调队列">
+      <UniqueIdentifier>{0894719e-f04a-44b5-9250-2ffbb025b83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\并查集">
+      <UniqueIdentifier>{fad1f48a-a7b8-4883-b36b-80e56903e821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\DFS\洪水填充">
+      <UniqueIdentifier>{f9046228-3837-44f3-b042-45e9ae9a254a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论">
+      <UniqueIdentifier>{833bf593-c529-4866-b962-a0613ba3d01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\拓扑排序">
+      <UniqueIdentifier>{5933e65a-cbac-4b7d-a303-b92db29a0e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最小生成树">
+      <UniqueIdentifier>{b1bae186-23a2-4aaf-a4ac-0a182fcdb842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\BFS">
+      <UniqueIdentifier>{daf828e0-321a-4791-98e9-007197fb0df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\双向搜索">
+      <UniqueIdentifier>{609148e9-7093-4df6-b475-beacf8a80a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\双向搜索\双向同时搜索">
+      <UniqueIdentifier>{db3af129-b99f-4432-9320-a0a8f2c2eb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\双向搜索\Meet in the middle">
+      <UniqueIdentifier>{59744987-5803-441f-8e60-f18274fb89da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最短路">
+      <UniqueIdentifier>{cc701a2c-37a5-47c0-9fd1-e226932510a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最短路\Dijkstra">
+      <UniqueIdentifier>{ee076c92-7f37-41c7-8855-6e5abbe7e33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最短路\分层图最短路">
+      <UniqueIdentifier>{001458bf-bf2d-4c33-ba21-a5513940eaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最短路\A%2a">
+      <UniqueIdentifier>{77fd4c33-31ad-4f02-bb6b-20b5d7d74b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最短路\Floyd">
+      <UniqueIdentifier>{ae3f4563-f3bf-4f5d-8612-5bc70f393cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最短路\Bellman-Ford">
+      <UniqueIdentifier>{05a4b648-7519-46a1-b48d-c593f2e4343d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最短路\Bellman-Ford+SPFA">
+      <UniqueIdentifier>{52af52e8-6933-467c-8ddf-c419efd264ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\建图">
+      <UniqueIdentifier>{bd034d0b-98c1-4229-bd29-70e8b469c54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划">
+      <UniqueIdentifier>{5d0d1501-7ecc-408f-bc83-3eacfa52d748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\一维动态规划">
+      <UniqueIdentifier>{9ca083a0-4c91-47ec-ab5d-56689fd6258f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\二维动态规划">
+      <UniqueIdentifier>{c875680a-1f42-4346-82b0-1904edc1f24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\DFS">
+      <UniqueIdentifier>{18dc447e-0bf2-4219-808b-a1c888f47f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\珂朵莉树%28ODT%29">
+      <UniqueIdentifier>{6ea6f875-f3b2-44de-9d74-c82386a6cdf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\三维动态规划">
+      <UniqueIdentifier>{4bb5dc65-bc6f-4a27-92c3-d47868d5ad97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\欧拉路径">
+      <UniqueIdentifier>{978d1c83-8250-40d7-990a-0648189a63e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\前k小子序列和">
+      <UniqueIdentifier>{6f87e19e-ee9a-4db3-b72a-fff09b27aaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\子序列计数">
+      <UniqueIdentifier>{d931dcd4-d0f7-4c11-9b4d-c2a8d9b04a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\前后缀动态规划">
+      <UniqueIdentifier>{e0aaa186-5620-4830-a966-e96dd9d23c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\前后缀动态规划\正反跑两遍背包">
+      <UniqueIdentifier>{b1674fd2-109f-458a-8edc-008e61934957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\树型dp">
+      <UniqueIdentifier>{d195c6cd-5f55-410e-90bd-1f7282f3737b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\背包dp">
+      <UniqueIdentifier>{d2f7a2d8-39f0-48f9-953d-5d5e466f01fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\背包dp\01背包">
+      <UniqueIdentifier>{7d218f24-48ff-4c9e-a3fd-c334086dbf36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\背包dp\有依赖的背包">
+      <UniqueIdentifier>{73915ec1-3d6a-4a25-9f2c-9b823eb311ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\背包dp\背包的第k优解">
+      <UniqueIdentifier>{c3e33788-03b5-46a0-9075-483a1bd620d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\背包dp\分组背包">
+      <UniqueIdentifier>{abdb239a-8950-4bcd-ab25-3f24cf25f497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\背包dp\完全背包">
+      <UniqueIdentifier>{f93f5030-4603-4ce0-b71a-6e2d9f277f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\背包dp\多重背包">
+      <UniqueIdentifier>{e2ece46e-ac53-403f-93dc-aba3df03445a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\区间dp">
+      <UniqueIdentifier>{2e4bc1dc-bb2d-49f9-8060-7e5465e35567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\子数组最大累加和问题及扩展">
+      <UniqueIdentifier>{aaf5166f-9221-4c2e-be8c-72415573920e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\最长递增子序列问题及其扩展">
+      <UniqueIdentifier>{e0b18aef-c523-4f9b-97c4-ce30d25d5f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\状压dp">
+      <UniqueIdentifier>{5c240057-1363-40ea-8e76-e9831b927f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\动态规划中用观察优化枚举的技巧">
+      <UniqueIdentifier>{9ed173f4-33a4-4a74-95ef-b91a858090f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\博弈论">
+      <UniqueIdentifier>{a1c9c079-6474-4c09-bedb-84212fcc9f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\状态机dp">
+      <UniqueIdentifier>{74008bb1-1091-440a-b333-16b42c95e02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\状态机dp\买卖股票系列问题">
+      <UniqueIdentifier>{3d4f5eae-cf29-4411-b09d-51da7859a2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\数位dp">
+      <UniqueIdentifier>{82313497-6e3b-43f1-9644-2e799ab08809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\拓扑排序\DAG上dp">
+      <UniqueIdentifier>{117cb42c-2eba-48de-96b2-73e4c6db95b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\动态规划中得到具体决策方案的技巧">
+      <UniqueIdentifier>{03ac1368-d28f-4356-880a-6ea4eed8c795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\动态规划中根据数据量猜解法的技巧">
+      <UniqueIdentifier>{da9acdd7-5562-424d-b1d3-195d76b0e433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\贪心">
+      <UniqueIdentifier>{70bb7e58-747f-4adc-8fcf-8dd87aa0dfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\贪心\反悔贪心">
+      <UniqueIdentifier>{b981580d-5b7f-4af2-8cd9-b81b41b12e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\分治">
+      <UniqueIdentifier>{eb4ad230-160b-42ca-891a-8bd1e81fed90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础">
+      <UniqueIdentifier>{d37bd40b-89ae-486c-a36c-2e227b3931e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础\循环节">
+      <UniqueIdentifier>{0f2798cb-dd4a-4806-83cc-f46fb65d4b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础\同余原理">
+      <UniqueIdentifier>{d8fec7d2-26f6-4598-a1ff-32383789a660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\st表">
+      <UniqueIdentifier>{ecda92eb-6166-430b-9ba4-ed848c4a807c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树状数组">
+      <UniqueIdentifier>{06cd44b0-7be8-494f-b750-9c398b16a015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树状数组\一维数组">
+      <UniqueIdentifier>{c576ac41-8159-4d0e-9cac-8a7abe0a89d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树状数组\一维数组\范围增加范围查询">
+      <UniqueIdentifier>{a63489a2-5a4d-459b-b9df-43e64dd16c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树状数组\一维数组\范围修改单点查询">
+      <UniqueIdentifier>{c5204ab4-5b48-49fb-9f78-372a3165d40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树状数组\一维数组\单点修改范围查询">
+      <UniqueIdentifier>{83621a6f-8897-41ba-8765-233f9c9c3436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树状数组\二维数组">
+      <UniqueIdentifier>{33cd9ec9-9929-49c7-860e-e220d52e2c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树状数组\二维数组\单点修改区间查询">
+      <UniqueIdentifier>{a5de8ff5-0b82-443f-a83e-a75affe715cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\树状数组\二维数组\范围修改范围查询">
+      <UniqueIdentifier>{4b1ac8ed-3c26-4da4-8d84-db00b6a9c92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树">
+      <UniqueIdentifier>{2371b742-1e3b-4b0d-ba41-9c4463235968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\区间增加区间查询">
+      <UniqueIdentifier>{6488af7f-fb6d-454b-8b93-a294bf6c96d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\区间重置区间查询">
+      <UniqueIdentifier>{be2d1dea-1c32-4f18-9c89-bf112d084171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\区间增加区间最大值查询">
+      <UniqueIdentifier>{a3fc477a-90f9-40e8-a980-683f842af334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\区间重置区间最大值查询">
+      <UniqueIdentifier>{d57365b8-2150-4113-ac9b-01d7935a411b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\区间重置+区间增加+区间累加和">
+      <UniqueIdentifier>{b4b20364-e36c-4c0d-b27e-c9b7d5e644c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\区间重置+区间增加+区间最大值">
+      <UniqueIdentifier>{ed70666f-e64b-4f63-a1dc-2c2e43a81974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\线段树离散化">
+      <UniqueIdentifier>{72ab6399-9310-4b32-9ba7-8ab103caefb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\线段树二分">
+      <UniqueIdentifier>{6d4237c6-14e4-4e8b-895f-bfd727152132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\线段树势能分析">
+      <UniqueIdentifier>{732222fa-40ef-45f0-80e7-435d71369cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\线段树维护特殊信息">
+      <UniqueIdentifier>{aa9d443a-71e4-4c54-bdb5-aff0f03dc26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\线段树解决区间合并问题">
+      <UniqueIdentifier>{a7eaed87-3aeb-4a38-a73a-77fd82a2e613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\树型dp\树上背包">
+      <UniqueIdentifier>{8676f1fa-c19f-414f-a6cb-0cae27a92ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础\乘法快速幂">
+      <UniqueIdentifier>{8671146b-33c7-44bf-8a0c-444ee4eb290e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础\矩阵快速幂">
+      <UniqueIdentifier>{50cee998-8433-4334-99ea-e5cbaaeecb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\递归和递推">
+      <UniqueIdentifier>{fa866b13-e3e5-4d90-90a7-f69cac0eccb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础\矩阵快速幂\矩阵快速幂优化dp">
+      <UniqueIdentifier>{4b2d1541-31a2-4ba9-a38f-1af933e8aa56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础\逆元">
+      <UniqueIdentifier>{629d7256-2a37-43c3-9e82-f27c070f7d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础\容斥原理">
+      <UniqueIdentifier>{43d6f9ed-58ce-46ec-ab12-1f8bd402889c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\动态开点线段树">
+      <UniqueIdentifier>{84f420d0-2928-461d-b8de-f2e139b4adfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\线段树的区间最值操作">
+      <UniqueIdentifier>{8a85b4a1-4f9b-47f4-a850-50b5e49c049f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\线段树的历史最值">
+      <UniqueIdentifier>{5a2cec59-9b0b-48c7-90f8-bc3c585dca7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据结构\线段树\线段树与扫描线">
+      <UniqueIdentifier>{81132d21-6d86-4c3b-9465-055242bf146a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\计算几何">
+      <UniqueIdentifier>{24a4d44f-ceee-4770-bb6e-9e118cb81c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\计算几何\扫描线">
+      <UniqueIdentifier>{328cb21b-1505-47da-b42b-3aefdf82a3f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\摩尔投票%28主元素问题%29">
+      <UniqueIdentifier>{2e3433d9-581d-469b-a9b9-253be29c8375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\摩尔投票%28主元素问题%29\摩尔投票+线段树维护信息">
+      <UniqueIdentifier>{5e369674-2132-417d-ba2c-a2c4b71cd3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\树上问题">
+      <UniqueIdentifier>{87eda2f2-56d3-4394-b7d4-e708bab4903f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\树上问题\树上倍增">
+      <UniqueIdentifier>{1c164b1e-bb9c-4fc8-8dfa-6ab755439f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\树上问题\LCA">
+      <UniqueIdentifier>{77560398-e540-462a-9a34-8d8b9dc2444f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\树上问题\LCA\树上倍增求LCA">
+      <UniqueIdentifier>{7d033bf4-8559-4c74-bcbe-f6276aa0efc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\树上问题\LCA\Tarjan算法求LCA">
+      <UniqueIdentifier>{f929a4d4-c64a-46ce-8bfb-41a5a61cd75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\分治\归并分治">
+      <UniqueIdentifier>{49be0782-9a85-4981-94fc-3a05fc826ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数学基础\杂项">
+      <UniqueIdentifier>{b465fe91-c387-40c0-bdc5-87f4bd17fdd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法基础\滑动窗口">
+      <UniqueIdentifier>{f6ce7034-d2c9-4100-aaf6-c26be95f39a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="手写顺序表模板.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="C++中的顺序表vector.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="手写顺序表.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="1.求奇数的乘积.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="1.求奇数的乘积法2.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="2.数值统计.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="3.移除元素 双指针.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="4.基于排列构建数组.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="5.杨辉三角.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="6.统计已测试设备.cpp">
+      <Filter>源文件\数据结构\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="刘春英_一维和二维递推问题示例.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="杨辉三角优化版.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="刘春英_例题.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="选择排序.cpp">
+      <Filter>源文件\算法基础\排序\选择排序</Filter>
+    </ClCompile>
+    <ClCompile Include="Leetcode231 2的幂.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="Leetcode342 4的幂.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC191. 位1的个数.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC136. 只出现一次的数字I.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="位运算符与赋值运算符的结合使用.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC461. 汉明距离.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC693. 交替位二进制数.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1863__. 找出所有子集的异或总和再求和.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC371. 两整数之和.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC88. 合并两个有序数组.cpp">
+      <Filter>源文件\算法基础\排序\冒泡排序</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针概念篇.cpp">
+      <Filter>源文件\算法基础\双指针</Filter>
+    </ClCompile>
+    <ClCompile Include="单向链表模板.cpp">
+      <Filter>源文件\数据结构\单向链表</Filter>
+    </ClCompile>
+    <ClCompile Include="蓝桥云课等腰三角形.cpp">
+      <Filter>源文件\算法基础\双指针</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1991. 找到数组的中间位置.cpp">
+      <Filter>源文件\算法基础\前缀和</Filter>
+    </ClCompile>
+    <ClCompile Include="如何对有序数组中的元素去重.cpp">
+      <Filter>源文件\算法基础\补充</Filter>
+    </ClCompile>
+    <ClCompile Include="快速幂应用1.cpp">
+      <Filter>源文件\数学基础\乘法快速幂</Filter>
+    </ClCompile>
+    <ClCompile Include="循环节优化.cpp">
+      <Filter>源文件\数学基础\循环节</Filter>
+    </ClCompile>
+    <ClCompile Include="逐次取模+循环节.cpp">
+      <Filter>源文件\数学基础\循环节</Filter>
+    </ClCompile>
+    <ClCompile Include="快速幂模板.cpp">
+      <Filter>源文件\数学基础\乘法快速幂</Filter>
+    </ClCompile>
+    <ClCompile Include="蓝桥云课字符统计.cpp">
+      <Filter>源文件\算法基础\哈希</Filter>
+    </ClCompile>
+    <ClCompile Include="蓝桥云课字符串统计.cpp">
+      <Filter>源文件\算法基础\哈希</Filter>
+    </ClCompile>
+    <ClCompile Include="蓝桥云课优质数对.cpp">
+      <Filter>源文件\算法基础\哈希</Filter>
+    </ClCompile>
+    <ClCompile Include="一维差分.cpp">
+      <Filter>源文件\算法基础\差分</Filter>
+    </ClCompile>
+    <ClCompile Include="滑动窗口概念.cpp">
+      <Filter>源文件\算法基础\滑动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="蓝桥云课挑选子串.cpp">
+      <Filter>源文件\算法基础\滑动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="蓝桥云课最长子串.cpp">
+      <Filter>源文件\算法基础\滑动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="蓝桥云课全部都有的子序列.cpp">
+      <Filter>源文件\算法基础\滑动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="LC_LCR 007. 三数之和.cpp">
+      <Filter>源文件\算法基础\滑动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="打印输出二进制整数.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="异或运算的应用.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC268.丢失的数字.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="提取二进制状态中最右侧的1.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC260.只出现一次的数字III_面试题.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="例题出现次数小于m次的数_面试题.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="例题大于等于n最小的二次幂.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC201数字范围按位与.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC201扩展数字范围按位或.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="LC190颠倒二进制位.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="二分查找基础_有序数组.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="二分无序数组_LC162寻找峰值.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="两数之和_不返回下标版本.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC35搜索插入位置.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="红绿灯标记法.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC704二分查找.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC34. 在排序数组中查找元素的第一个和最后一个位置.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC744寻找比目标字母大的最小字母.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2529正整数和负整数的最大计数.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2300_咒语和药水的成功对数.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1385_两个数组间的距离值.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2389和有限的最长子序列.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1170比较字符串最小字母出现频次.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC875爱吃香蕉的珂珂.cpp">
+      <Filter>源文件\算法基础\二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="LC410分割数组的最大值.cpp">
+      <Filter>源文件\算法基础\二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客机器人跳跃问题.cpp">
+      <Filter>源文件\算法基础\二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="LC719找出第 K 小的数对距离.cpp">
+      <Filter>源文件\算法基础\二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1109 航班预订统计.cpp">
+      <Filter>源文件\算法基础\差分</Filter>
+    </ClCompile>
+    <ClCompile Include="一维二阶差分_洛谷P4231三步必杀.cpp">
+      <Filter>源文件\算法基础\差分</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P5026Lycanthropy.cpp">
+      <Filter>源文件\算法基础\差分</Filter>
+    </ClCompile>
+    <ClCompile Include="二维前缀和.cpp">
+      <Filter>源文件\算法基础\前缀和</Filter>
+    </ClCompile>
+    <ClCompile Include="二维差分.cpp">
+      <Filter>源文件\算法基础\差分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC304二维区域和检索 - 矩阵不可变.cpp">
+      <Filter>源文件\算法基础\前缀和</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3397地毯.cpp">
+      <Filter>源文件\算法基础\差分</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客【模板】二维差分.cpp">
+      <Filter>源文件\算法基础\差分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2132用邮票贴满网格图.cpp">
+      <Filter>源文件\算法基础\差分</Filter>
+    </ClCompile>
+    <ClCompile Include="n阶汉诺塔.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="快速幂.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="插入排序模板.cpp">
+      <Filter>源文件\算法基础\排序\插入排序</Filter>
+    </ClCompile>
+    <ClCompile Include="计数排序模板.cpp">
+      <Filter>源文件\算法基础\排序\计数排序</Filter>
+    </ClCompile>
+    <ClCompile Include="归并排序.cpp">
+      <Filter>源文件\算法基础\排序\归并排序</Filter>
+    </ClCompile>
+    <ClCompile Include="单向链表模板2.cpp">
+      <Filter>源文件\数据结构\单向链表</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1996 约瑟夫问题.cpp">
+      <Filter>源文件\数据结构\单向链表</Filter>
+    </ClCompile>
+    <ClCompile Include="高精度加法.cpp">
+      <Filter>源文件\算法基础\高精度</Filter>
+    </ClCompile>
+    <ClCompile Include="随机快速排序.cpp">
+      <Filter>源文件\算法基础\排序\随机快速排序</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1287有序数组中出现次数超过25%的元素.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC3488距离最小相等元素查询.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2563统计公平数对的数目.cpp">
+      <Filter>源文件\算法基础\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1283使结果不超过阈值的最小除数.cpp">
+      <Filter>源文件\算法基础\二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="第k小第k大.cpp">
+      <Filter>源文件\算法基础\二分答案法</Filter>
+    </ClCompile>
+    <ClCompile Include="随机选择算法.cpp">
+      <Filter>源文件\算法基础\排序\随机快速排序</Filter>
+    </ClCompile>
+    <ClCompile Include="结构体数组模拟单向链表.cpp">
+      <Filter>源文件\数据结构\单向链表</Filter>
+    </ClCompile>
+    <ClCompile Include="一维数组模拟单向链表.cpp">
+      <Filter>源文件\数据结构\单向链表</Filter>
+    </ClCompile>
+    <ClCompile Include="LC11盛最多水的容器.cpp">
+      <Filter>源文件\算法基础\双指针</Filter>
+    </ClCompile>
+    <ClCompile Include="LC42接雨水.cpp">
+      <Filter>源文件\算法基础\双指针</Filter>
+    </ClCompile>
+    <ClCompile Include="数组模拟栈.cpp">
+      <Filter>源文件\数据结构\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="数组模拟队列.cpp">
+      <Filter>源文件\数据结构\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="STL队列.cpp">
+      <Filter>源文件\数据结构\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="环形队列.cpp">
+      <Filter>源文件\数据结构\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="LC622设计循环队列.cpp">
+      <Filter>源文件\数据结构\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="LCR147. 最小栈.cpp">
+      <Filter>源文件\数据结构\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="双端队列.cpp">
+      <Filter>源文件\数据结构\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树及其三种序.cpp">
+      <Filter>源文件\数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="LC209长度最小的子数组.cpp">
+      <Filter>源文件\算法基础\滑动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="LC3无重复字符的最长子串.cpp">
+      <Filter>源文件\算法基础\滑动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="LC76最小覆盖子串.cpp">
+      <Filter>源文件\算法基础\滑动窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="离散化_LCP74最强祝福力场.cpp">
+      <Filter>源文件\算法基础\离散化</Filter>
+    </ClCompile>
+    <ClCompile Include="离散化模板.cpp">
+      <Filter>源文件\算法基础\离散化</Filter>
+    </ClCompile>
+    <ClCompile Include="区间合并.cpp">
+      <Filter>源文件\算法基础\区间合并</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树遍历的非递归实现和复杂度分析.cpp">
+      <Filter>源文件\数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="STL栈.cpp">
+      <Filter>源文件\数据结构\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="堆结构.cpp">
+      <Filter>源文件\数据结构\堆</Filter>
+    </ClCompile>
+    <ClCompile Include="堆排序.cpp">
+      <Filter>源文件\数据结构\堆</Filter>
+    </ClCompile>
+    <ClCompile Include="set和multiset.cpp">
+      <Filter>源文件\STL\set和multiset</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>源文件\STL\map</Filter>
+    </ClCompile>
+    <ClCompile Include="线段最多重合问题.cpp">
+      <Filter>源文件\数据结构\堆</Filter>
+    </ClCompile>
+    <ClCompile Include="LC253会议室.cpp">
+      <Filter>源文件\数据结构\堆</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2208将数组和减半的最少操作次数.cpp">
+      <Filter>源文件\数据结构\堆</Filter>
+    </ClCompile>
+    <ClCompile Include="基数排序.cpp">
+      <Filter>源文件\算法基础\排序\基数排序</Filter>
+    </ClCompile>
+    <ClCompile Include="位图.cpp">
+      <Filter>源文件\数据结构\位图</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2166设计位集.cpp">
+      <Filter>源文件\数据结构\位图</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客字符串的全部子序列.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC90子集 II.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC17.电话号码的字母组合.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC78子集.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LCR 083. 全排列.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC47全排列 II.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="递归函数实现逆序栈.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC772基本计算器III.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC227基本计算器 II.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC224基本计算器.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC394字符串解码.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC726原子的数量.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC52N皇后II数组版.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC52N皇后II位运算版.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="最大公约数gcd.cpp">
+      <Filter>源文件\数学基础\同余原理</Filter>
+    </ClCompile>
+    <ClCompile Include="最小公倍数lcm.cpp">
+      <Filter>源文件\数学基础\同余原理</Filter>
+    </ClCompile>
+    <ClCompile Include="LC878第N个神奇数字.cpp">
+      <Filter>源文件\数学基础\同余原理</Filter>
+    </ClCompile>
+    <ClCompile Include="同余原理.cpp">
+      <Filter>源文件\数学基础\同余原理</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客消灭怪物.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC201扩展数字范围按位异或.cpp">
+      <Filter>源文件\算法基础\二进制与位运算</Filter>
+    </ClCompile>
+    <ClCompile Include="字典树模板.cpp">
+      <Filter>源文件\数据结构\字典树trie</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客字典树的实现.cpp">
+      <Filter>源文件\数据结构\字典树trie</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客接头密钥.cpp">
+      <Filter>源文件\数据结构\字典树trie</Filter>
+    </ClCompile>
+    <ClCompile Include="LC421数组中两个数的最大异或值.cpp">
+      <Filter>源文件\数据结构\字典树trie</Filter>
+    </ClCompile>
+    <ClCompile Include="LC79单词搜索.cpp">
+      <Filter>源文件\算法基础\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="LC212单词搜索 II.cpp">
+      <Filter>源文件\数据结构\字典树trie</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客和为K的连续子数组.cpp">
+      <Filter>源文件\算法基础\前缀信息的构建</Filter>
+    </ClCompile>
+    <ClCompile Include="LC560和为 K 的子数组.cpp">
+      <Filter>源文件\算法基础\前缀信息的构建</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1124表现良好的最长时间段.cpp">
+      <Filter>源文件\算法基础\前缀信息的构建</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1590使数组和能被 P 整除.cpp">
+      <Filter>源文件\算法基础\前缀信息的构建</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1371每个元音包含偶数次的最长子字符串.cpp">
+      <Filter>源文件\算法基础\前缀信息的构建</Filter>
+    </ClCompile>
+    <ClCompile Include="单调栈.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客单调栈结构_STL单调栈模板.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客单调栈结构_静态数组单调栈模板.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="LC739每日温度.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="LC907子数组的最小值之和.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="LC84柱状图中最大的矩形.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="LC85最大矩形.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="LC962最大宽度坡.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="LC316去除重复字母.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客大雨吃小鱼.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="九连环.cpp">
+      <Filter>源文件\算法基础\递归和递推</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1504统计全 1 子矩形.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2289使数组按非递减顺序排列.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="单调队列.cpp">
+      <Filter>源文件\数据结构\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="LC239滑动窗口最大值.cpp">
+      <Filter>源文件\数据结构\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="STL_deque.cpp">
+      <Filter>源文件\数据结构\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1438绝对差不超过限制的最长连续子数组.cpp">
+      <Filter>源文件\数据结构\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2698[USACO12MAR] Flowerpot S自己的解法.cpp">
+      <Filter>源文件\数据结构\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2698[USACO12MAR] Flowerpot S优化.cpp">
+      <Filter>源文件\数据结构\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="LC862和至少为 K 的最短子数组.cpp">
+      <Filter>源文件\数据结构\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1499满足不等式的最大值.cpp">
+      <Filter>源文件\数据结构\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2071你可以安排的最多任务数目.cpp">
+      <Filter>源文件\数据结构\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="并查集.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="并查集模板_牛客并查集的实现.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3367[模板]并查集.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="LC765情侣牵手.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="LC839相似字符串组.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="LC200岛屿数量_并查集实现.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="LC947移除最多的同行或同列石头.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2092找出知晓秘密的所有专家.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="LC200岛屿数量.cpp">
+      <Filter>源文件\算法基础\DFS\洪水填充</Filter>
+    </ClCompile>
+    <ClCompile Include="LC130被围绕的区域.cpp">
+      <Filter>源文件\算法基础\DFS\洪水填充</Filter>
+    </ClCompile>
+    <ClCompile Include="LC827最大人工岛.cpp">
+      <Filter>源文件\算法基础\DFS\洪水填充</Filter>
+    </ClCompile>
+    <ClCompile Include="LC803打砖块.cpp">
+      <Filter>源文件\算法基础\DFS\洪水填充</Filter>
+    </ClCompile>
+    <ClCompile Include="邻接矩阵建图.cpp">
+      <Filter>源文件\图论\建图</Filter>
+    </ClCompile>
+    <ClCompile Include="邻接表建图.cpp">
+      <Filter>源文件\图论\建图</Filter>
+    </ClCompile>
+    <ClCompile Include="链式前向星建图.cpp">
+      <Filter>源文件\图论\建图</Filter>
+    </ClCompile>
+    <ClCompile Include="拓扑排序.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="LC210课程表 II.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客拓扑排序.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷字典序最小的拓扑排序.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="LCR114火星词典.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="LC936戳印序列.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4017最大食物链计数.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="LC853车队.cpp">
+      <Filter>源文件\数据结构\单调栈</Filter>
+    </ClCompile>
+    <ClCompile Include="LC851喧闹和富有.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2050并行课程III.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2127参加会议的最多员工数.cpp">
+      <Filter>源文件\图论\拓扑排序</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2421好路径的数目.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树.cpp">
+      <Filter>源文件\图论\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树Kruskal算法.cpp">
+      <Filter>源文件\图论\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树Prim算法.cpp">
+      <Filter>源文件\图论\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1168水资源分配优化.cpp">
+      <Filter>源文件\图论\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1697检查边长度限制的路径是否存在.cpp">
+      <Filter>源文件\图论\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2330繁忙的都市%28最小瓶颈树%29.cpp">
+      <Filter>源文件\图论\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>源文件\图论\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1162地图分析.cpp">
+      <Filter>源文件\图论\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="LC691贴纸拼词.cpp">
+      <Filter>源文件\图论\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="01BFS.cpp">
+      <Filter>源文件\图论\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2290到达角落需要移除障碍物的最小数目.cpp">
+      <Filter>源文件\图论\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1368使网格图至少有一条有效路径的最小代价.cpp">
+      <Filter>源文件\图论\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="LC407接雨水 II.cpp">
+      <Filter>源文件\图论\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="priority_queue.cpp">
+      <Filter>源文件\数据结构\堆</Filter>
+    </ClCompile>
+    <ClCompile Include="LC126单词接龙 II.cpp">
+      <Filter>源文件\图论\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="LC127单词接龙.cpp">
+      <Filter>源文件\图论\双向搜索\双向同时搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客牛牛的背包问题.cpp">
+      <Filter>源文件\图论\双向搜索\Meet in the middle</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4799世界冰球锦标赛.cpp">
+      <Filter>源文件\图论\双向搜索\Meet in the middle</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1755最接近目标值的子序列和.cpp">
+      <Filter>源文件\图论\双向搜索\Meet in the middle</Filter>
+    </ClCompile>
+    <ClCompile Include="LC743网络延迟(模板).cpp">
+      <Filter>源文件\图论\最短路\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>源文件\图论\最短路\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4779[模板]单源最短路径(标准版).cpp">
+      <Filter>源文件\图论\最短路\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1631最小体力消耗路径.cpp">
+      <Filter>源文件\图论\最短路\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="LC778水位上升的泳池中游泳.cpp">
+      <Filter>源文件\图论\最短路\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="LC864获取所有钥匙的最短路径.cpp">
+      <Filter>源文件\图论\最短路\分层图最短路</Filter>
+    </ClCompile>
+    <ClCompile Include="LCP35电动车游城市.cpp">
+      <Filter>源文件\图论\最短路\分层图最短路</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4568飞行路线.cpp">
+      <Filter>源文件\图论\最短路\分层图最短路</Filter>
+    </ClCompile>
+    <ClCompile Include="A-star.cpp">
+      <Filter>源文件\图论\最短路\A%2a</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1379八数码难题.cpp">
+      <Filter>源文件\图论\最短路\A%2a</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd.cpp">
+      <Filter>源文件\图论\最短路\Floyd</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3647模板Floyd.cpp">
+      <Filter>源文件\图论\最短路\Floyd</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2910ClearAndPresentDangerS.cpp">
+      <Filter>源文件\图论\最短路\Floyd</Filter>
+    </ClCompile>
+    <ClCompile Include="Bellman-Ford.cpp">
+      <Filter>源文件\图论\最短路\Bellman-Ford</Filter>
+    </ClCompile>
+    <ClCompile Include="LC787K站中转内最便宜的航班.cpp">
+      <Filter>源文件\图论\最短路\Bellman-Ford</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3385模板负环.cpp">
+      <Filter>源文件\图论\最短路\Bellman-Ford+SPFA</Filter>
+    </ClCompile>
+    <ClCompile Include="LC91解码方法.cpp">
+      <Filter>源文件\动态规划\一维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC639解码方法II.cpp">
+      <Filter>源文件\动态规划\一维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC983最低票价.cpp">
+      <Filter>源文件\动态规划\一维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="一维动态规划.cpp">
+      <Filter>源文件\动态规划\一维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC264丑数II.cpp">
+      <Filter>源文件\动态规划\一维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC32最长有效括号.cpp">
+      <Filter>源文件\动态规划\一维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC467环绕字符串中唯一的子字符串.cpp">
+      <Filter>源文件\动态规划\一维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="CF20CDijkstra求路径.cpp">
+      <Filter>源文件\图论\最短路\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="LC64最小路径和.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1143最长公共子序列.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC516最长回文子序列.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS判环.cpp">
+      <Filter>源文件\图论\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="ODT模板.cpp">
+      <Filter>源文件\数据结构\珂朵莉树%28ODT%29</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2391白雪皑皑.cpp">
+      <Filter>源文件\数据结构\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客二叉树.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC329矩阵中的最长递增路径.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC115不同的子序列.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC72编辑距离.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC97交错字符串.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="有效涂色问题.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="删除至少几个字符可以变成另一个字符串的子串.cpp">
+      <Filter>源文件\动态规划\二维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC474一和零.cpp">
+      <Filter>源文件\动态规划\三维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC879盈利计划.cpp">
+      <Filter>源文件\动态规划\三维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC688骑士在棋盘上的概率.cpp">
+      <Filter>源文件\动态规划\三维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P7771模板欧拉路径.cpp">
+      <Filter>源文件\图论\欧拉路径</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2731骑马修栅栏.cpp">
+      <Filter>源文件\图论\欧拉路径</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1341无序字母对.cpp">
+      <Filter>源文件\图论\欧拉路径</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1127词链.cpp">
+      <Filter>源文件\图论\欧拉路径</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2435 矩阵中和能被 K 整除的路径.cpp">
+      <Filter>源文件\动态规划\三维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC87扰乱字符串.cpp">
+      <Filter>源文件\动态规划\三维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC53最大子数组和.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC198打家劫舍.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC918环形子数组的最大和.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC213打家劫舍II.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2560打家劫舍IV.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC面试题17.24. 最大子矩阵.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC152乘积最大子数组.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="子序列必须被7整除的最大累加和.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="子序列必须被7整除的最大累加和_对拍.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="魔法卷轴.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="魔法卷轴_对拍.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC689.三个无重叠子数组的最大和.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="可以翻转一次的情况下子数组最大累加和.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="可以翻转一次的情况下子数组最大累加和_对拍.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="删除1个数字后长度为k的子数组最大累加和.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="删除1个数字后长度为k的子数组最大累加和_对拍.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1186删除一次得到子数组最大和.cpp">
+      <Filter>源文件\动态规划\子数组最大累加和问题及扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC300最长递增子序列.cpp">
+      <Filter>源文件\动态规划\最长递增子序列问题及其扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC354俄罗斯套娃信封问题.cpp">
+      <Filter>源文件\动态规划\最长递增子序列问题及其扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2111使数组 K 递增的最少操作次数.cpp">
+      <Filter>源文件\动态规划\最长递增子序列问题及其扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="LC646最长数对链.cpp">
+      <Filter>源文件\动态规划\最长递增子序列问题及其扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P8776最长不下降子序列.cpp">
+      <Filter>源文件\动态规划\最长递增子序列问题及其扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1048采药.cpp">
+      <Filter>源文件\动态规划\背包dp\01背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC bytedance-006夏季特惠.cpp">
+      <Filter>源文件\动态规划\背包dp\01背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC494目标和.cpp">
+      <Filter>源文件\动态规划\背包dp\01背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1049最后一块石头的重量II.cpp">
+      <Filter>源文件\动态规划\背包dp\01背包</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1064金明的预算方案.cpp">
+      <Filter>源文件\动态规划\背包dp\有依赖的背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2386找出数组的第K大和.cpp">
+      <Filter>源文件\动态规划\前k小子序列和</Filter>
+    </ClCompile>
+    <ClCompile Include="前k小子序列和.cpp">
+      <Filter>源文件\动态规划\前k小子序列和</Filter>
+    </ClCompile>
+    <ClCompile Include="前k小子序列和_对拍.cpp">
+      <Filter>源文件\动态规划\前k小子序列和</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1757通天之分组背包.cpp">
+      <Filter>源文件\动态规划\背包dp\分组背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2218从栈中取出 K 个硬币的最大面值和.cpp">
+      <Filter>源文件\动态规划\背包dp\分组背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC3336最大公约数相等的子序列数量.cpp">
+      <Filter>源文件\动态规划\子序列计数</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1616完全背包模板.cpp">
+      <Filter>源文件\动态规划\背包dp\完全背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC10正则表达式匹配.cpp">
+      <Filter>源文件\动态规划\背包dp\完全背包</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2918BuyingHayS.cpp">
+      <Filter>源文件\动态规划\背包dp\完全背包</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1776宝物筛选.cpp">
+      <Filter>源文件\动态规划\背包dp\多重背包</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1883樱花.cpp">
+      <Filter>源文件\动态规划\背包dp\多重背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC44通配符匹配.cpp">
+      <Filter>源文件\动态规划\背包dp\完全背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1312让字符串成为回文串的最少插入次数.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC486预测赢家.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1039多边形三角剖分的最低得分.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1547切棍子的最小成本.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC312戳气球.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC面试题0814布尔运算.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客括号区间匹配.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4170涂色.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC664奇怪的打印机.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3205合唱队.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC546移除盒子.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1000合并石头的最低成本.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC730统计不同回文子序列.cpp">
+      <Filter>源文件\动态规划\区间dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4095Eden的新背包问题.cpp">
+      <Filter>源文件\动态规划\前后缀动态规划\正反跑两遍背包</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC441F.cpp">
+      <Filter>源文件\动态规划\前后缀动态规划\正反跑两遍背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC333最大二叉搜索子树.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1373二叉搜索子树的最大键值和.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC543二叉树的直径.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC979在二叉树中分配硬币.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1352没有上司的舞会.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC968监控二叉树.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2016战略游戏.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC437路经总和III.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2477到达首都的最少油耗.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2246相邻字符不同的最长路径.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="dfn序.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2458移除子树后的二叉树高度.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2322从树中删除边的最小分数.cpp">
+      <Filter>源文件\动态规划\树型dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2014选课.cpp">
+      <Filter>源文件\动态规划\树型dp\树上背包</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2014选课_优化.cpp">
+      <Filter>源文件\动态规划\树型dp\树上背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC464我能赢吗.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC437火柴拼正方形.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC698划分为k个相等的子集.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="tsp问题_洛谷P1171售货员的难题.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1434每个人戴不同帽子的方案数.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC465最优账单平衡.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1994好子集的数目.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="快速幂+取模模板.cpp">
+      <Filter>源文件\数学基础\乘法快速幂</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1655分配重复整数.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举子集的技巧.cpp">
+      <Filter>源文件\动态规划\状压dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC122买卖股票的最佳时机II.cpp">
+      <Filter>源文件\动态规划\状态机dp\买卖股票系列问题</Filter>
+    </ClCompile>
+    <ClCompile Include="LC123买卖股票的最佳时机III.cpp">
+      <Filter>源文件\动态规划\状态机dp\买卖股票系列问题</Filter>
+    </ClCompile>
+    <ClCompile Include="LC188买卖股票的最佳时机IV.cpp">
+      <Filter>源文件\动态规划\状态机dp\买卖股票系列问题</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P8743异或数列.cpp">
+      <Filter>源文件\博弈论</Filter>
+    </ClCompile>
+    <ClCompile Include="LC714买卖股票的最佳时机含手续费.cpp">
+      <Filter>源文件\动态规划\状态机dp\买卖股票系列问题</Filter>
+    </ClCompile>
+    <ClCompile Include="LC309买卖股票的最佳时机含冷冻期.cpp">
+      <Filter>源文件\动态规划\状态机dp\买卖股票系列问题</Filter>
+    </ClCompile>
+    <ClCompile Include="LC903DI序列的有效排列.cpp">
+      <Filter>源文件\动态规划\动态规划中用观察优化枚举的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1235规划兼职工作.cpp">
+      <Filter>源文件\动态规划\动态规划中用观察优化枚举的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="LC629K个逆序对数组.cpp">
+      <Filter>源文件\动态规划\动态规划中用观察优化枚举的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="LC514自由之路.cpp">
+      <Filter>源文件\动态规划\动态规划中用观察优化枚举的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客累加和不超过k的最长子数组.cpp">
+      <Filter>源文件\动态规划\动态规划中用观察优化枚举的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="LC3651带传送的最小路径成本.cpp">
+      <Filter>源文件\动态规划\动态规划中用观察优化枚举的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="LC357统计各位数字都不同的数字个数.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC902最大为N的数字组合.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2719统计整数数目.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2376统计特殊整数.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1012至少有 1 位重复的数字.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2657windy数.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3413萌数.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC600不含连续1的非负整数.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2602数字计数.cpp">
+      <Filter>源文件\动态规划\数位dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1807最长路.cpp">
+      <Filter>源文件\图论\拓扑排序\DAG上dp</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷T386911最长上升子序列输出解.cpp">
+      <Filter>源文件\动态规划\动态规划中得到具体决策方案的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1759通天之潜水.cpp">
+      <Filter>源文件\动态规划\动态规划中得到具体决策方案的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客贿赂怪兽.cpp">
+      <Filter>源文件\动态规划\动态规划中根据数据量猜解法的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1439两个排列的最长公共子序列.cpp">
+      <Filter>源文件\动态规划\动态规划中根据数据量猜解法的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1187使数组严格递增.cpp">
+      <Filter>源文件\动态规划\动态规划中根据数据量猜解法的技巧</Filter>
+    </ClCompile>
+    <ClCompile Include="LC179最大数.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1029两地调度.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1533吃掉 N 个橘子的最少天数.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC630课程表III.cpp">
+      <Filter>源文件\贪心\反悔贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P6033合并果子加强版.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1353最多可以参加的会议数目.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC502IPO.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="加入差值绝对值直到长度固定.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3865模板ST表&amp;RMQ问题.cpp">
+      <Filter>源文件\数据结构\st表</Filter>
+    </ClCompile>
+    <ClCompile Include="LC581最短无序连续子数组.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC632最小区间.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P12331最大开支.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="平均值最小的累加和.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1665完成所有任务的最少初始能量.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="两个0和1数量相等区间的最大长度.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3374树状数组1.cpp">
+      <Filter>源文件\数据结构\树状数组\一维数组\单点修改范围查询</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3368树状数组2.cpp">
+      <Filter>源文件\数据结构\树状数组\一维数组\范围修改单点查询</Filter>
+    </ClCompile>
+    <ClCompile Include="P3372线段树1.cpp">
+      <Filter>源文件\数据结构\树状数组\一维数组\范围增加范围查询</Filter>
+    </ClCompile>
+    <ClCompile Include="LOJ133 二维树状数组1单点修改区间查询.cpp">
+      <Filter>源文件\数据结构\树状数组\二维数组\单点修改区间查询</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4514上帝造题的七分钟.cpp">
+      <Filter>源文件\数据结构\树状数组\二维数组\范围修改范围查询</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1908逆序对_归并分治.cpp">
+      <Filter>源文件\数据结构\树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1908逆序对_树状数组.cpp">
+      <Filter>源文件\数据结构\树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1637三元上升子序列.cpp">
+      <Filter>源文件\数据结构\树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="LC673最长递增子序列的个数.cpp">
+      <Filter>源文件\数据结构\树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1675数组的最小偏移量.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客知识竞赛.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1121将数组分成几个递增序列.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC871最低加油次数.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="P1972HH的项链.cpp">
+      <Filter>源文件\数据结构\树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2193.得到回文串的最少操作次数.cpp">
+      <Filter>源文件\数据结构\树状数组</Filter>
+    </ClCompile>
+    <ClCompile Include="UVA11235.cpp">
+      <Filter>源文件\数据结构\st表</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3372模板线段树1.cpp">
+      <Filter>源文件\数据结构\线段树\区间增加区间查询</Filter>
+    </ClCompile>
+    <ClCompile Include="线段树实现范围重置范围查询.cpp">
+      <Filter>源文件\数据结构\线段树\区间重置区间查询</Filter>
+    </ClCompile>
+    <ClCompile Include="线段树区间增加区间最大值查询.cpp">
+      <Filter>源文件\数据结构\线段树\区间增加区间最大值查询</Filter>
+    </ClCompile>
+    <ClCompile Include="线段树区间重置区间最大值查询.cpp">
+      <Filter>源文件\数据结构\线段树\区间重置区间最大值查询</Filter>
+    </ClCompile>
+    <ClCompile Include="线段树区间重置+区间增加+区间累加和.cpp">
+      <Filter>源文件\数据结构\线段树\区间重置+区间增加+区间累加和</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1253.cpp">
+      <Filter>源文件\数据结构\线段树\区间重置+区间增加+区间最大值</Filter>
+    </ClCompile>
+    <ClCompile Include="LC45跳跃游戏II.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1326灌溉花园的最少水龙头数目.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1153字符串转化.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1809过河问题.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC517超级洗衣机.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="LC699掉落的方块.cpp">
+      <Filter>源文件\数据结构\线段树\线段树离散化</Filter>
+    </ClCompile>
+    <ClCompile Include="HDU4614.cpp">
+      <Filter>源文件\数据结构\线段树\线段树二分</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4145.cpp">
+      <Filter>源文件\数据结构\线段树\线段树势能分析</Filter>
+    </ClCompile>
+    <ClCompile Include="CF438D.cpp">
+      <Filter>源文件\数据结构\线段树\线段树势能分析</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3740.cpp">
+      <Filter>源文件\数据结构\线段树\线段树离散化</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2184贪婪大陆.cpp">
+      <Filter>源文件\数据结构\线段树\线段树维护特殊信息</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1471方差.cpp">
+      <Filter>源文件\数据结构\线段树\线段树维护特殊信息</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1438无聊的数列.cpp">
+      <Filter>源文件\数据结构\线段树\线段树维护特殊信息</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2572序列操作.cpp">
+      <Filter>源文件\数据结构\线段树\线段树解决区间合并问题</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P6492STEP.cpp">
+      <Filter>源文件\数据结构\线段树\线段树解决区间合并问题</Filter>
+    </ClCompile>
+    <ClCompile Include="LC857雇佣K名工人的最低成本.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1503鬼子进村.cpp">
+      <Filter>源文件\数据结构\线段树\线段树解决区间合并问题</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2894Hotel G.cpp">
+      <Filter>源文件\数据结构\线段树\线段树解决区间合并问题</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1417烹调方案.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2014选课_上下界优化.cpp">
+      <Filter>源文件\动态规划\树型dp\树上背包</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1273有线电视网.cpp">
+      <Filter>源文件\动态规划\树型dp\树上背包</Filter>
+    </ClCompile>
+    <ClCompile Include="LC3562折扣价交易股票的最大利润.cpp">
+      <Filter>源文件\动态规划\树型dp\树上背包</Filter>
+    </ClCompile>
+    <ClCompile Include="巴什博弈.cpp">
+      <Filter>源文件\博弈论</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3390模板矩阵快速幂.cpp">
+      <Filter>源文件\数学基础\矩阵快速幂</Filter>
+    </ClCompile>
+    <ClCompile Include="矩阵快速幂中找关系矩阵的方法.cpp">
+      <Filter>源文件\数学基础\矩阵快速幂</Filter>
+    </ClCompile>
+    <ClCompile Include="LC790多米诺和托米诺平铺.cpp">
+      <Filter>源文件\动态规划\一维动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1220统计元音字母序列的数目.cpp">
+      <Filter>源文件\数学基础\矩阵快速幂\矩阵快速幂优化dp</Filter>
+    </ClCompile>
+    <ClCompile Include="LC552学生出勤记录 II.cpp">
+      <Filter>源文件\数学基础\矩阵快速幂\矩阵快速幂优化dp</Filter>
+    </ClCompile>
+    <ClCompile Include="单个数字的逆元.cpp">
+      <Filter>源文件\数学基础\逆元</Filter>
+    </ClCompile>
+    <ClCompile Include="多个数字逆元的线性递推.cpp">
+      <Filter>源文件\数学基础\逆元</Filter>
+    </ClCompile>
+    <ClCompile Include="阶乘逆元递推(应用于组合数公式).cpp">
+      <Filter>源文件\数学基础\逆元</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P5431模意义下的乘法逆元2.cpp">
+      <Filter>源文件\数学基础\逆元</Filter>
+    </ClCompile>
+    <ClCompile Include="CF803F.cpp">
+      <Filter>源文件\数学基础\容斥原理</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1450[HAOI2008]硬币购物.cpp">
+      <Filter>源文件\数学基础\容斥原理</Filter>
+    </ClCompile>
+    <ClCompile Include="LC920播放列表的数量.cpp">
+      <Filter>源文件\数学基础\容斥原理</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P2781 模板.cpp">
+      <Filter>源文件\数据结构\线段树\动态开点线段树</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P13825模板线段树1.5.cpp">
+      <Filter>源文件\数据结构\线段树\动态开点线段树</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2276统计区间中的整数数目.cpp">
+      <Filter>源文件\数据结构\线段树\动态开点线段树</Filter>
+    </ClCompile>
+    <ClCompile Include="HDU5306Gorgeous Sequence.cpp">
+      <Filter>源文件\数据结构\线段树\线段树的区间最值操作</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P6242 【模板】线段树 3（区间最值操作、区间历史最值）.cpp">
+      <Filter>源文件\数据结构\线段树\线段树的历史最值</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1851包含每个查询的最小区间.cpp">
+      <Filter>源文件\计算几何\扫描线</Filter>
+    </ClCompile>
+    <ClCompile Include="LC218天际线问题.cpp">
+      <Filter>源文件\计算几何\扫描线</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P5490 【模板】扫描线 &amp; 矩形面积并.cpp">
+      <Filter>源文件\计算几何\扫描线</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1856矩形周长.cpp">
+      <Filter>源文件\计算几何\扫描线</Filter>
+    </ClCompile>
+    <ClCompile Include="LC169多数元素.cpp">
+      <Filter>源文件\算法基础\摩尔投票%28主元素问题%29</Filter>
+    </ClCompile>
+    <ClCompile Include="摩尔投票交互题.cpp">
+      <Filter>源文件\算法基础\摩尔投票%28主元素问题%29</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2780合法分割的最小下标.cpp">
+      <Filter>源文件\算法基础\摩尔投票%28主元素问题%29</Filter>
+    </ClCompile>
+    <ClCompile Include="LC229多数元素II.cpp">
+      <Filter>源文件\算法基础\摩尔投票%28主元素问题%29</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1157子数组中占绝大多数的元素.cpp">
+      <Filter>源文件\算法基础\摩尔投票%28主元素问题%29\摩尔投票+线段树维护信息</Filter>
+    </ClCompile>
+    <ClCompile Include="LC1483树节点第k个祖先.cpp">
+      <Filter>源文件\图论\树上问题\树上倍增</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3379最近公共祖先_树上倍增法.cpp">
+      <Filter>源文件\图论\树上问题\LCA\树上倍增求LCA</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P3379最近公共祖先_Tarjan.cpp">
+      <Filter>源文件\图论\树上问题\LCA\Tarjan算法求LCA</Filter>
+    </ClCompile>
+    <ClCompile Include="LC483翻转对.cpp">
+      <Filter>源文件\分治\归并分治</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客计算数组的小和.cpp">
+      <Filter>源文件\分治\归并分治</Filter>
+    </ClCompile>
+    <ClCompile Include="两整数除法向上取整.cpp">
+      <Filter>源文件\数学基础\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="能被11,111,1111表示的数.cpp">
+      <Filter>源文件\数学基础\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P1967货车运输.cpp">
+      <Filter>源文件\图论\树上问题\树上倍增</Filter>
+    </ClCompile>
+    <ClCompile Include="洛谷P4281紧急集合.cpp">
+      <Filter>源文件\图论\树上问题\树上倍增</Filter>
+    </ClCompile>
+    <ClCompile Include="LC2846边权重均等查询.cpp">
+      <Filter>源文件\图论\树上问题\树上倍增</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="单点修改区间查询.md">
+      <Filter>源文件\数据结构\树状数组\二维数组\单点修改区间查询</Filter>
+    </None>
+    <None Include="范围修改范围查询.md">
+      <Filter>源文件\数据结构\树状数组\二维数组\范围修改范围查询</Filter>
+    </None>
+  </ItemGroup>
+</Project>
