@@ -19,1418 +19,1438 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01BFS.cpp">
+    <ClCompile Include="图论\BFS\01BFS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1.求奇数的乘积法2.cpp">
+    <ClCompile Include="图论\树上问题\树上倍增\LC2836在传球游戏中最大化函数值.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="A-star.cpp">
+    <ClCompile Include="图论\树上问题\树的直径\洛谷P3304直径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="ABC441F.cpp">
+    <ClCompile Include="图论\树上问题\树的直径\洛谷U81904模板树的直径(负边权).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Bellman-Ford.cpp">
+    <ClCompile Include="图论\树上问题\树的重心\CF1406C.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BFS.cpp">
+    <ClCompile Include="图论\树上问题\树的重心\洛谷P2986Great Cow Gathering G.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="CF20CDijkstra求路径.cpp">
+    <ClCompile Include="图论\树上问题\树的重心\洛谷U104609模板树的重心.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="CF438D.cpp">
+    <ClCompile Include="数据结构\顺序表\1.求奇数的乘积法2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="CF803F.cpp">
+    <ClCompile Include="图论\最短路\A-star\A-star.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="dfn序.cpp">
+    <ClCompile Include="动态规划\前后缀动态规划\正反跑两遍背包\ABC441F.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="DFS判环.cpp">
+    <ClCompile Include="图论\最短路\Bellman-Ford\Bellman-Ford.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Dijkstra.cpp">
+    <ClCompile Include="图论\BFS\BFS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Floyd.cpp">
+    <ClCompile Include="图论\最短路\Dijkstra\CF20CDijkstra求路径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="HDU4614.cpp">
+    <ClCompile Include="数据结构\线段树\线段树势能分析\CF438D.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="HDU5306Gorgeous Sequence.cpp">
+    <ClCompile Include="数学基础\容斥原理\CF803F.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC bytedance-006夏季特惠.cpp">
+    <ClCompile Include="动态规划\树形dp\dfn序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1000合并石头的最低成本.cpp">
+    <ClCompile Include="图论\DFS\DFS判环.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1012至少有 1 位重复的数字.cpp">
+    <ClCompile Include="图论\最短路\Dijkstra\Dijkstra.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1029两地调度.cpp">
+    <ClCompile Include="图论\最短路\Floyd\Floyd.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1039多边形三角剖分的最低得分.cpp">
+    <ClCompile Include="数据结构\线段树\线段树二分\HDU4614.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1049最后一块石头的重量II.cpp">
+    <ClCompile Include="数据结构\线段树\线段树的区间最值操作\HDU5306Gorgeous Sequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC10正则表达式匹配.cpp">
+    <ClCompile Include="动态规划\背包dp\01背包\LC bytedance-006夏季特惠.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1121将数组分成几个递增序列.cpp">
+    <ClCompile Include="动态规划\区间dp\LC1000合并石头的最低成本.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1124表现良好的最长时间段.cpp">
+    <ClCompile Include="动态规划\数位dp\LC1012至少有 1 位重复的数字.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1143最长公共子序列.cpp">
+    <ClCompile Include="贪心\LC1029两地调度.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1153字符串转化.cpp">
+    <ClCompile Include="动态规划\区间dp\LC1039多边形三角剖分的最低得分.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1157子数组中占绝大多数的元素.cpp">
+    <ClCompile Include="动态规划\背包dp\01背包\LC1049最后一块石头的重量II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC115不同的子序列.cpp">
+    <ClCompile Include="动态规划\背包dp\完全背包\LC10正则表达式匹配.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1162地图分析.cpp">
+    <ClCompile Include="贪心\LC1121将数组分成几个递增序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1168水资源分配优化.cpp">
+    <ClCompile Include="算法基础\前缀信息的构建\LC1124表现良好的最长时间段.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1186删除一次得到子数组最大和.cpp">
+    <ClCompile Include="动态规划\二维动态规划\LC1143最长公共子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1187使数组严格递增.cpp">
+    <ClCompile Include="贪心\LC1153字符串转化.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC11盛最多水的容器.cpp">
+    <ClCompile Include="算法基础\摩尔投票（主元素问题）\摩尔投票+线段树维护信息\LC1157子数组中占绝大多数的元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1220统计元音字母序列的数目.cpp">
+    <ClCompile Include="动态规划\二维动态规划\LC115不同的子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC122买卖股票的最佳时机II.cpp">
+    <ClCompile Include="图论\BFS\LC1162地图分析.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1235规划兼职工作.cpp">
+    <ClCompile Include="图论\最小生成树MST\LC1168水资源分配优化.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC123买卖股票的最佳时机III.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC1186删除一次得到子数组最大和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC126单词接龙 II.cpp">
+    <ClCompile Include="动态规划\动态规划中根据数据量猜解法的技巧\LC1187使数组严格递增.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC127单词接龙.cpp">
+    <ClCompile Include="算法基础\双指针\LC11盛最多水的容器.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC130被围绕的区域.cpp">
+    <ClCompile Include="数学基础\矩阵快速幂\矩阵快速幂优化dp\LC1220统计元音字母序列的数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1312让字符串成为回文串的最少插入次数.cpp">
+    <ClCompile Include="动态规划\状态机dp\买卖股票系列问题\LC122买卖股票的最佳时机II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1326灌溉花园的最少水龙头数目.cpp">
+    <ClCompile Include="动态规划\动态规划中用观察优化枚举的技巧\LC1235规划兼职工作.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1353最多可以参加的会议数目.cpp">
+    <ClCompile Include="动态规划\状态机dp\买卖股票系列问题\LC123买卖股票的最佳时机III.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1368使网格图至少有一条有效路径的最小代价.cpp">
+    <ClCompile Include="图论\BFS\LC126单词接龙 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1371每个元音包含偶数次的最长子字符串.cpp">
+    <ClCompile Include="图论\树上问题\双向搜索\双向同时搜索\LC127单词接龙.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1373二叉搜索子树的最大键值和.cpp">
+    <ClCompile Include="算法基础\DFS\洪水填充\LC130被围绕的区域.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1434每个人戴不同帽子的方案数.cpp">
+    <ClCompile Include="动态规划\区间dp\LC1312让字符串成为回文串的最少插入次数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1438绝对差不超过限制的最长连续子数组.cpp">
+    <ClCompile Include="贪心\LC1326灌溉花园的最少水龙头数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1483树节点第k个祖先.cpp">
+    <ClCompile Include="贪心\LC1353最多可以参加的会议数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1499满足不等式的最大值.cpp">
+    <ClCompile Include="图论\BFS\LC1368使网格图至少有一条有效路径的最小代价.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1504统计全 1 子矩形.cpp">
+    <ClCompile Include="算法基础\前缀信息的构建\LC1371每个元音包含偶数次的最长子字符串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC152乘积最大子数组.cpp">
+    <ClCompile Include="动态规划\树形dp\LC1373二叉搜索子树的最大键值和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1533吃掉 N 个橘子的最少天数.cpp">
+    <ClCompile Include="动态规划\状压dp\LC1434每个人戴不同帽子的方案数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1547切棍子的最小成本.cpp">
+    <ClCompile Include="数据结构\单调队列\LC1438绝对差不超过限制的最长连续子数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1590使数组和能被 P 整除.cpp">
+    <ClCompile Include="图论\树上问题\树上倍增\LC1483树节点第k个祖先.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1631最小体力消耗路径.cpp">
+    <ClCompile Include="数据结构\单调队列\LC1499满足不等式的最大值.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1655分配重复整数.cpp">
+    <ClCompile Include="数据结构\单调栈\LC1504统计全 1 子矩形.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1665完成所有任务的最少初始能量.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC152乘积最大子数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1675数组的最小偏移量.cpp">
+    <ClCompile Include="贪心\LC1533吃掉 N 个橘子的最少天数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1697检查边长度限制的路径是否存在.cpp">
+    <ClCompile Include="动态规划\区间dp\LC1547切棍子的最小成本.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC169多数元素.cpp">
+    <ClCompile Include="算法基础\前缀信息的构建\LC1590使数组和能被 P 整除.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC17.电话号码的字母组合.cpp">
+    <ClCompile Include="图论\最短路\Dijkstra\LC1631最小体力消耗路径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1755最接近目标值的子序列和.cpp">
+    <ClCompile Include="动态规划\状压dp\LC1655分配重复整数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC179最大数.cpp">
+    <ClCompile Include="贪心\LC1665完成所有任务的最少初始能量.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1851包含每个查询的最小区间.cpp">
+    <ClCompile Include="贪心\LC1675数组的最小偏移量.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC188买卖股票的最佳时机IV.cpp">
+    <ClCompile Include="图论\最小生成树MST\LC1697检查边长度限制的路径是否存在.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC198打家劫舍.cpp">
+    <ClCompile Include="算法基础\摩尔投票（主元素问题）\LC169多数元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1994好子集的数目.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC17.电话号码的字母组合.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC200岛屿数量.cpp">
+    <ClCompile Include="图论\树上问题\双向搜索\Meet in the middle\LC1755最接近目标值的子序列和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC200岛屿数量_并查集实现.cpp">
+    <ClCompile Include="贪心\LC179最大数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC201扩展数字范围按位异或.cpp">
+    <ClCompile Include="计算几何\扫描线\LC1851包含每个查询的最小区间.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2050并行课程III.cpp">
+    <ClCompile Include="动态规划\状态机dp\买卖股票系列问题\LC188买卖股票的最佳时机IV.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2071你可以安排的最多任务数目.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC198打家劫舍.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2092找出知晓秘密的所有专家.cpp">
+    <ClCompile Include="动态规划\状压dp\LC1994好子集的数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC209长度最小的子数组.cpp">
+    <ClCompile Include="算法基础\DFS\洪水填充\LC200岛屿数量.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC210课程表 II.cpp">
+    <ClCompile Include="数据结构\并查集\LC200岛屿数量_并查集实现.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2111使数组 K 递增的最少操作次数.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC201扩展数字范围按位异或.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2127参加会议的最多员工数.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\LC2050并行课程III.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC212单词搜索 II.cpp">
+    <ClCompile Include="数据结构\单调队列\LC2071你可以安排的最多任务数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC213打家劫舍II.cpp">
+    <ClCompile Include="数据结构\并查集\LC2092找出知晓秘密的所有专家.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2166设计位集.cpp">
+    <ClCompile Include="算法基础\滑动窗口\LC209长度最小的子数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC218天际线问题.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\LC210课程表 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2193.得到回文串的最少操作次数.cpp">
+    <ClCompile Include="动态规划\最长递增子序列问题及其扩展\LC2111使数组 K 递增的最少操作次数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2208将数组和减半的最少操作次数.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\LC2127参加会议的最多员工数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2218从栈中取出 K 个硬币的最大面值和.cpp">
+    <ClCompile Include="数据结构\字典树trie\LC212单词搜索 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2246相邻字符不同的最长路径.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC213打家劫舍II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC224基本计算器.cpp">
+    <ClCompile Include="数据结构\位图\LC2166设计位集.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2276统计区间中的整数数目.cpp">
+    <ClCompile Include="计算几何\扫描线\LC218天际线问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC227基本计算器 II.cpp">
+    <ClCompile Include="数据结构\树状数组\LC2193.得到回文串的最少操作次数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2289使数组按非递减顺序排列.cpp">
+    <ClCompile Include="数据结构\堆\LC2208将数组和减半的最少操作次数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2290到达角落需要移除障碍物的最小数目.cpp">
+    <ClCompile Include="动态规划\背包dp\分组背包\LC2218从栈中取出 K 个硬币的最大面值和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC229多数元素II.cpp">
+    <ClCompile Include="动态规划\树形dp\LC2246相邻字符不同的最长路径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2322从树中删除边的最小分数.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC224基本计算器.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2376统计特殊整数.cpp">
+    <ClCompile Include="数据结构\线段树\动态开点线段树\LC2276统计区间中的整数数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2386找出数组的第K大和.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC227基本计算器 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC239滑动窗口最大值.cpp">
+    <ClCompile Include="数据结构\单调栈\LC2289使数组按非递减顺序排列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2421好路径的数目.cpp">
+    <ClCompile Include="图论\BFS\LC2290到达角落需要移除障碍物的最小数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2435 矩阵中和能被 K 整除的路径.cpp">
+    <ClCompile Include="算法基础\摩尔投票（主元素问题）\LC229多数元素II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2458移除子树后的二叉树高度.cpp">
+    <ClCompile Include="动态规划\树形dp\LC2322从树中删除边的最小分数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2477到达首都的最少油耗.cpp">
+    <ClCompile Include="动态规划\数位dp\LC2376统计特殊整数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC253会议室.cpp">
+    <ClCompile Include="动态规划\前k小子序列和\LC2386找出数组的第K大和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2560打家劫舍IV.cpp">
+    <ClCompile Include="数据结构\单调队列\LC239滑动窗口最大值.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2719统计整数数目.cpp">
+    <ClCompile Include="数据结构\并查集\LC2421好路径的数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2780合法分割的最小下标.cpp">
+    <ClCompile Include="动态规划\三维动态规划\LC2435 矩阵中和能被 K 整除的路径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2846边权重均等查询.cpp">
+    <ClCompile Include="动态规划\树形dp\LC2458移除子树后的二叉树高度.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC300最长递增子序列.cpp">
+    <ClCompile Include="动态规划\树形dp\LC2477到达首都的最少油耗.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC309买卖股票的最佳时机含冷冻期.cpp">
+    <ClCompile Include="数据结构\堆\LC253会议室.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC312戳气球.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC2560打家劫舍IV.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC316去除重复字母.cpp">
+    <ClCompile Include="动态规划\数位dp\LC2719统计整数数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC329矩阵中的最长递增路径.cpp">
+    <ClCompile Include="算法基础\摩尔投票（主元素问题）\LC2780合法分割的最小下标.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC32最长有效括号.cpp">
+    <ClCompile Include="图论\树上问题\树上倍增\LC2846边权重均等查询.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC3336最大公约数相等的子序列数量.cpp">
+    <ClCompile Include="动态规划\最长递增子序列问题及其扩展\LC300最长递增子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC333最大二叉搜索子树.cpp">
+    <ClCompile Include="动态规划\状态机dp\买卖股票系列问题\LC309买卖股票的最佳时机含冷冻期.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC354俄罗斯套娃信封问题.cpp">
+    <ClCompile Include="动态规划\区间dp\LC312戳气球.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC3562折扣价交易股票的最大利润.cpp">
+    <ClCompile Include="数据结构\单调栈\LC316去除重复字母.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC357统计各位数字都不同的数字个数.cpp">
+    <ClCompile Include="动态规划\二维动态规划\LC329矩阵中的最长递增路径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC3651带传送的最小路径成本.cpp">
+    <ClCompile Include="动态规划\一维动态规划\LC32最长有效括号.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC394字符串解码.cpp">
+    <ClCompile Include="动态规划\子序列计数\LC3336最大公约数相等的子序列数量.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC3无重复字符的最长子串.cpp">
+    <ClCompile Include="动态规划\树形dp\LC333最大二叉搜索子树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC407接雨水 II.cpp">
+    <ClCompile Include="动态规划\最长递增子序列问题及其扩展\LC354俄罗斯套娃信封问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC421数组中两个数的最大异或值.cpp">
+    <ClCompile Include="动态规划\树形dp\树上背包\LC3562折扣价交易股票的最大利润.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC42接雨水.cpp">
+    <ClCompile Include="动态规划\数位dp\LC357统计各位数字都不同的数字个数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC437火柴拼正方形.cpp">
+    <ClCompile Include="动态规划\动态规划中用观察优化枚举的技巧\LC3651带传送的最小路径成本.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC437路经总和III.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC394字符串解码.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC44通配符匹配.cpp">
+    <ClCompile Include="算法基础\滑动窗口\LC3无重复字符的最长子串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC45跳跃游戏II.cpp">
+    <ClCompile Include="图论\BFS\LC407接雨水 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC464我能赢吗.cpp">
+    <ClCompile Include="数据结构\字典树trie\LC421数组中两个数的最大异或值.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC465最优账单平衡.cpp">
+    <ClCompile Include="算法基础\双指针\LC42接雨水.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC467环绕字符串中唯一的子字符串.cpp">
+    <ClCompile Include="动态规划\状压dp\LC437火柴拼正方形.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC474一和零.cpp">
+    <ClCompile Include="动态规划\树形dp\LC437路经总和III.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC47全排列 II.cpp">
+    <ClCompile Include="动态规划\背包dp\完全背包\LC44通配符匹配.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC486预测赢家.cpp">
+    <ClCompile Include="贪心\LC45跳跃游戏II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC494目标和.cpp">
+    <ClCompile Include="动态规划\状压dp\LC464我能赢吗.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC502IPO.cpp">
+    <ClCompile Include="动态规划\状压dp\LC465最优账单平衡.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC514自由之路.cpp">
+    <ClCompile Include="动态规划\一维动态规划\LC467环绕字符串中唯一的子字符串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC516最长回文子序列.cpp">
+    <ClCompile Include="动态规划\三维动态规划\LC474一和零.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC517超级洗衣机.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC47全排列 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC52N皇后II位运算版.cpp">
+    <ClCompile Include="动态规划\区间dp\LC486预测赢家.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC53最大子数组和.cpp">
+    <ClCompile Include="动态规划\背包dp\01背包\LC494目标和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC543二叉树的直径.cpp">
+    <ClCompile Include="贪心\LC502IPO.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC546移除盒子.cpp">
+    <ClCompile Include="动态规划\动态规划中用观察优化枚举的技巧\LC514自由之路.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC552学生出勤记录 II.cpp">
+    <ClCompile Include="动态规划\二维动态规划\LC516最长回文子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC560和为 K 的子数组.cpp">
+    <ClCompile Include="贪心\LC517超级洗衣机.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC581最短无序连续子数组.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC52N皇后II位运算版.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC600不含连续1的非负整数.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC53最大子数组和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC622设计循环队列.cpp">
+    <ClCompile Include="动态规划\树形dp\LC543二叉树的直径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC629K个逆序对数组.cpp">
+    <ClCompile Include="动态规划\区间dp\LC546移除盒子.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC630课程表III.cpp">
+    <ClCompile Include="数学基础\矩阵快速幂\矩阵快速幂优化dp\LC552学生出勤记录 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC632最小区间.cpp">
+    <ClCompile Include="算法基础\前缀信息的构建\LC560和为 K 的子数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC639解码方法II.cpp">
+    <ClCompile Include="贪心\LC581最短无序连续子数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC646最长数对链.cpp">
+    <ClCompile Include="动态规划\数位dp\LC600不含连续1的非负整数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC64最小路径和.cpp">
+    <ClCompile Include="数据结构\队列\LC622设计循环队列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC664奇怪的打印机.cpp">
+    <ClCompile Include="动态规划\动态规划中用观察优化枚举的技巧\LC629K个逆序对数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC673最长递增子序列的个数.cpp">
+    <ClCompile Include="贪心\反悔贪心\LC630课程表III.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC688骑士在棋盘上的概率.cpp">
+    <ClCompile Include="贪心\LC632最小区间.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC689.三个无重叠子数组的最大和.cpp">
+    <ClCompile Include="动态规划\一维动态规划\LC639解码方法II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC691贴纸拼词.cpp">
+    <ClCompile Include="动态规划\最长递增子序列问题及其扩展\LC646最长数对链.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC698划分为k个相等的子集.cpp">
+    <ClCompile Include="动态规划\二维动态规划\LC64最小路径和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC699掉落的方块.cpp">
+    <ClCompile Include="动态规划\区间dp\LC664奇怪的打印机.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC714买卖股票的最佳时机含手续费.cpp">
+    <ClCompile Include="数据结构\树状数组\LC673最长递增子序列的个数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC726原子的数量.cpp">
+    <ClCompile Include="动态规划\三维动态规划\LC688骑士在棋盘上的概率.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC72编辑距离.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC689.三个无重叠子数组的最大和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC730统计不同回文子序列.cpp">
+    <ClCompile Include="图论\BFS\LC691贴纸拼词.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC739每日温度.cpp">
+    <ClCompile Include="动态规划\状压dp\LC698划分为k个相等的子集.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC743网络延迟(模板).cpp">
+    <ClCompile Include="数据结构\线段树\线段树离散化\LC699掉落的方块.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC765情侣牵手.cpp">
+    <ClCompile Include="动态规划\状态机dp\买卖股票系列问题\LC714买卖股票的最佳时机含手续费.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC76最小覆盖子串.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC726原子的数量.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC772基本计算器III.cpp">
+    <ClCompile Include="动态规划\二维动态规划\LC72编辑距离.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC778水位上升的泳池中游泳.cpp">
+    <ClCompile Include="动态规划\区间dp\LC730统计不同回文子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC787K站中转内最便宜的航班.cpp">
+    <ClCompile Include="数据结构\单调栈\LC739每日温度.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC78子集.cpp">
+    <ClCompile Include="图论\最短路\Dijkstra\LC743网络延迟%28模板%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC790多米诺和托米诺平铺.cpp">
+    <ClCompile Include="数据结构\并查集\LC765情侣牵手.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC79单词搜索.cpp">
+    <ClCompile Include="算法基础\滑动窗口\LC76最小覆盖子串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC803打砖块.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC772基本计算器III.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC827最大人工岛.cpp">
+    <ClCompile Include="图论\最短路\Dijkstra\LC778水位上升的泳池中游泳.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC839相似字符串组.cpp">
+    <ClCompile Include="图论\最短路\Bellman-Ford\LC787K站中转内最便宜的航班.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC84柱状图中最大的矩形.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC78子集.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC851喧闹和富有.cpp">
+    <ClCompile Include="动态规划\一维动态规划\LC790多米诺和托米诺平铺.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC853车队.cpp">
+    <ClCompile Include="算法基础\DFS\LC79单词搜索.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC857雇佣K名工人的最低成本.cpp">
+    <ClCompile Include="算法基础\DFS\洪水填充\LC803打砖块.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC85最大矩形.cpp">
+    <ClCompile Include="算法基础\DFS\洪水填充\LC827最大人工岛.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC862和至少为 K 的最短子数组.cpp">
+    <ClCompile Include="数据结构\并查集\LC839相似字符串组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC864获取所有钥匙的最短路径.cpp">
+    <ClCompile Include="数据结构\单调栈\LC84柱状图中最大的矩形.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC871最低加油次数.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\LC851喧闹和富有.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC878第N个神奇数字.cpp">
+    <ClCompile Include="数据结构\单调栈\LC853车队.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC879盈利计划.cpp">
+    <ClCompile Include="贪心\LC857雇佣K名工人的最低成本.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC87扰乱字符串.cpp">
+    <ClCompile Include="数据结构\单调栈\LC85最大矩形.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC902最大为N的数字组合.cpp">
+    <ClCompile Include="数据结构\单调队列\LC862和至少为 K 的最短子数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC903DI序列的有效排列.cpp">
+    <ClCompile Include="图论\最短路\分层图最短路\LC864获取所有钥匙的最短路径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC907子数组的最小值之和.cpp">
+    <ClCompile Include="贪心\LC871最低加油次数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC90子集 II.cpp">
+    <ClCompile Include="数学基础\同余原理\LC878第N个神奇数字.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC918环形子数组的最大和.cpp">
+    <ClCompile Include="动态规划\三维动态规划\LC879盈利计划.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC91解码方法.cpp">
+    <ClCompile Include="动态规划\三维动态规划\LC87扰乱字符串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC920播放列表的数量.cpp">
+    <ClCompile Include="动态规划\数位dp\LC902最大为N的数字组合.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC936戳印序列.cpp">
+    <ClCompile Include="动态规划\动态规划中用观察优化枚举的技巧\LC903DI序列的有效排列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC947移除最多的同行或同列石头.cpp">
+    <ClCompile Include="数据结构\单调栈\LC907子数组的最小值之和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC962最大宽度坡.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC90子集 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC968监控二叉树.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC918环形子数组的最大和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC979在二叉树中分配硬币.cpp">
+    <ClCompile Include="动态规划\一维动态规划\LC91解码方法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC97交错字符串.cpp">
+    <ClCompile Include="数学基础\容斥原理\LC920播放列表的数量.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC983最低票价.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\LC936戳印序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LCP35电动车游城市.cpp">
+    <ClCompile Include="数据结构\并查集\LC947移除最多的同行或同列石头.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LCR 083. 全排列.cpp">
+    <ClCompile Include="数据结构\单调栈\LC962最大宽度坡.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LCR114火星词典.cpp">
+    <ClCompile Include="动态规划\树形dp\LC968监控二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LCR147. 最小栈.cpp">
+    <ClCompile Include="动态规划\树形dp\LC979在二叉树中分配硬币.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC52N皇后II数组版.cpp">
+    <ClCompile Include="动态规划\二维动态规划\LC97交错字符串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC面试题0814布尔运算.cpp">
+    <ClCompile Include="动态规划\一维动态规划\LC983最低票价.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC面试题17.24. 最大子矩阵.cpp">
+    <ClCompile Include="图论\最短路\分层图最短路\LCP35电动车游城市.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LOJ133 二维树状数组1单点修改区间查询.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LCR 083. 全排列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="ODT模板.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\LCR114火星词典.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="P1972HH的项链.cpp">
+    <ClCompile Include="数据结构\栈\LCR147. 最小栈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="P3372线段树1.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\LC52N皇后II数组版.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="单个数字的逆元.cpp">
+    <ClCompile Include="动态规划\区间dp\LC面试题0814布尔运算.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="多个数字逆元的线性递推.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\LC面试题17.24. 最大子矩阵.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="巴什博弈.cpp">
+    <ClCompile Include="数据结构\树状数组\二维数组\单点修改区间查询\LOJ133 二维树状数组1单点修改区间查询.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="摩尔投票交互题.cpp">
+    <ClCompile Include="数据结构\珂朵莉树（ODT）\ODT模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1273有线电视网.cpp">
+    <ClCompile Include="数据结构\树状数组\P1972HH的项链.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P13825模板线段树1.5.cpp">
+    <ClCompile Include="数据结构\树状数组\一维数组\范围增加范围查询\P3372线段树1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1417烹调方案.cpp">
+    <ClCompile Include="数学基础\逆元\单个数字的逆元.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1438无聊的数列.cpp">
+    <ClCompile Include="数学基础\逆元\多个数字逆元的线性递推.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1450[HAOI2008]硬币购物.cpp">
+    <ClCompile Include="博弈论\巴什博弈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1471方差.cpp">
+    <ClCompile Include="算法基础\摩尔投票（主元素问题）\摩尔投票交互题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1503鬼子进村.cpp">
+    <ClCompile Include="动态规划\树形dp\树上背包\洛谷P1273有线电视网.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1856矩形周长.cpp">
+    <ClCompile Include="数据结构\线段树\动态开点线段树\洛谷P13825模板线段树1.5.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1967货车运输.cpp">
+    <ClCompile Include="贪心\洛谷P1417烹调方案.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2014选课_上下界优化.cpp">
+    <ClCompile Include="数据结构\线段树\线段树维护特殊信息\洛谷P1438无聊的数列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2184贪婪大陆.cpp">
+    <ClCompile Include="数学基础\容斥原理\洛谷P1450[HAOI2008]硬币购物.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2572序列操作.cpp">
+    <ClCompile Include="数据结构\线段树\线段树维护特殊信息\洛谷P1471方差.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2781 模板.cpp">
+    <ClCompile Include="数据结构\线段树\线段树解决区间合并问题\洛谷P1503鬼子进村.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2894Hotel G.cpp">
+    <ClCompile Include="计算几何\扫描线\洛谷P1856矩形周长.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3379最近公共祖先_Tarjan.cpp">
+    <ClCompile Include="图论\树上问题\树上倍增\洛谷P1967货车运输.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3379最近公共祖先_树上倍增法.cpp">
+    <ClCompile Include="动态规划\树形dp\树上背包\洛谷P2014选课_上下界优化.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3390模板矩阵快速幂.cpp">
+    <ClCompile Include="数据结构\线段树\线段树维护特殊信息\洛谷P2184贪婪大陆.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3740.cpp">
+    <ClCompile Include="数据结构\线段树\线段树解决区间合并问题\洛谷P2572序列操作.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="priority_queue.cpp">
+    <ClCompile Include="数据结构\线段树\动态开点线段树\洛谷P2781 模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="set和multiset.cpp">
+    <ClCompile Include="数据结构\线段树\线段树解决区间合并问题\洛谷P2894Hotel G.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="STL_deque.cpp">
+    <ClCompile Include="图论\树上问题\LCA\Tarjan算法求LCA\洛谷P3379最近公共祖先_Tarjan.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="STL栈.cpp">
+    <ClCompile Include="图论\树上问题\LCA\树上倍增求LCA\洛谷P3379最近公共祖先_树上倍增法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="STL队列.cpp">
+    <ClCompile Include="数学基础\矩阵快速幂\矩阵快速幂优化dp\洛谷P3390模板矩阵快速幂.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="tsp问题_洛谷P1171售货员的难题.cpp">
+    <ClCompile Include="数据结构\线段树\线段树离散化\洛谷P3740.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UVA11235.cpp">
+    <ClCompile Include="数据结构\堆\priority_queue.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="一维动态规划.cpp">
+    <ClCompile Include="STL\set和multiset\set和multiset.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="一维数组模拟单向链表.cpp">
+    <ClCompile Include="数据结构\队列\STL_deque.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC264丑数II.cpp">
+    <ClCompile Include="数据结构\栈\STL栈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="两个0和1数量相等区间的最大长度.cpp">
+    <ClCompile Include="数据结构\队列\STL队列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="九连环.cpp">
+    <ClCompile Include="动态规划\状压dp\tsp问题_洛谷P1171售货员的难题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="二叉树及其三种序.cpp">
+    <ClCompile Include="数据结构\st表\UVA11235.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="二叉树遍历的非递归实现和复杂度分析.cpp">
+    <ClCompile Include="动态规划\一维动态规划\一维动态规划.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="位图.cpp">
+    <ClCompile Include="数据结构\单向链表\一维数组模拟单向链表.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="删除1个数字后长度为k的子数组最大累加和.cpp">
+    <ClCompile Include="动态规划\一维动态规划\LC264丑数II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="删除1个数字后长度为k的子数组最大累加和_对拍.cpp">
+    <ClCompile Include="贪心\两个0和1数量相等区间的最大长度.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="删除至少几个字符可以变成另一个字符串的子串.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\九连环.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="前k小子序列和.cpp">
+    <ClCompile Include="数据结构\树\二叉树及其三种序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="区间合并.cpp">
+    <ClCompile Include="数据结构\树\二叉树遍历的非递归实现和复杂度分析.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="单向链表模板2.cpp">
+    <ClCompile Include="数据结构\位图\位图.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1283使结果不超过阈值的最小除数.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\删除1个数字后长度为k的子数组最大累加和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2563统计公平数对的数目.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\删除1个数字后长度为k的子数组最大累加和_对拍.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1109 航班预订统计.cpp">
+    <ClCompile Include="动态规划\二维动态规划\删除至少几个字符可以变成另一个字符串的子串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1170比较字符串最小字母出现频次.cpp">
+    <ClCompile Include="动态规划\前k小子序列和\前k小子序列和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1287有序数组中出现次数超过25%的元素.cpp">
+    <ClCompile Include="算法基础\区间合并\区间合并.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC136. 只出现一次的数字I.cpp">
+    <ClCompile Include="数据结构\单向链表\单向链表模板2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1385_两个数组间的距离值.cpp">
+    <ClCompile Include="算法基础\二分答案法\LC1283使结果不超过阈值的最小除数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1863__. 找出所有子集的异或总和再求和.cpp">
+    <ClCompile Include="算法基础\二分\LC2563统计公平数对的数目.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC190颠倒二进制位.cpp">
+    <ClCompile Include="算法基础\差分\LC1109 航班预订统计.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC191. 位1的个数.cpp">
+    <ClCompile Include="算法基础\二分\LC1170比较字符串最小字母出现频次.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2.数值统计.cpp">
+    <ClCompile Include="算法基础\二分\LC1287有序数组中出现次数超过25%25的元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3.移除元素 双指针.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC136. 只出现一次的数字I.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2132用邮票贴满网格图.cpp">
+    <ClCompile Include="算法基础\二分\LC1385_两个数组间的距离值.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2300_咒语和药水的成功对数.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC1863__. 找出所有子集的异或总和再求和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2389和有限的最长子序列.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC190颠倒二进制位.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC2529正整数和负整数的最大计数.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC191. 位1的个数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC304二维区域和检索 - 矩阵不可变.cpp">
+    <ClCompile Include="数据结构\顺序表\2.数值统计.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC34. 在排序数组中查找元素的第一个和最后一个位置.cpp">
+    <ClCompile Include="数据结构\顺序表\3.移除元素 双指针.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC3488距离最小相等元素查询.cpp">
+    <ClCompile Include="算法基础\差分\LC2132用邮票贴满网格图.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC35搜索插入位置.cpp">
+    <ClCompile Include="算法基础\二分\LC2300_咒语和药水的成功对数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC410分割数组的最大值.cpp">
+    <ClCompile Include="算法基础\二分\LC2389和有限的最长子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC483翻转对.cpp">
+    <ClCompile Include="算法基础\二分\LC2529正整数和负整数的最大计数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC704二分查找.cpp">
+    <ClCompile Include="算法基础\前缀和\LC304二维区域和检索 - 矩阵不可变.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC719找出第 K 小的数对距离.cpp">
+    <ClCompile Include="算法基础\二分\LC34. 在排序数组中查找元素的第一个和最后一个位置.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC744寻找比目标字母大的最小字母.cpp">
+    <ClCompile Include="算法基础\二分\LC3488距离最小相等元素查询.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="两数之和_不返回下标版本.cpp">
+    <ClCompile Include="算法基础\二分\LC35搜索插入位置.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC201扩展数字范围按位或.cpp">
+    <ClCompile Include="算法基础\二分答案法\LC410分割数组的最大值.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC201数字范围按位与.cpp">
+    <ClCompile Include="分治\归并分治\LC483翻转对.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC260.只出现一次的数字III_面试题.cpp">
+    <ClCompile Include="算法基础\二分\LC704二分查找.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC268.丢失的数字.cpp">
+    <ClCompile Include="算法基础\二分答案法\LC719找出第 K 小的数对距离.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC371. 两整数之和.cpp">
+    <ClCompile Include="算法基础\二分\LC744寻找比目标字母大的最小字母.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="4.基于排列构建数组.cpp">
+    <ClCompile Include="算法基础\二分\两数之和_不返回下标版本.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC461. 汉明距离.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC201扩展数字范围按位或.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="6.统计已测试设备.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC201数字范围按位与.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC693. 交替位二进制数.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC260.只出现一次的数字III_面试题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C++中的顺序表vector.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC268.丢失的数字.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1.求奇数的乘积.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC371. 两整数之和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC1991. 找到数组的中间位置.cpp">
+    <ClCompile Include="数据结构\顺序表\4.基于排列构建数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC_LCR 007. 三数之和.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC461. 汉明距离.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Leetcode342 4的幂.cpp">
+    <ClCompile Include="数据结构\顺序表\6.统计已测试设备.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="刘春英_一维和二维递推问题示例.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\LC693. 交替位二进制数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Leetcode231 2的幂.cpp">
+    <ClCompile Include="数据结构\顺序表\C++中的顺序表vector.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="两整数除法向上取整.cpp">
+    <ClCompile Include="数据结构\顺序表\1.求奇数的乘积.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="二分无序数组_LC162寻找峰值.cpp">
+    <ClCompile Include="算法基础\前缀和\LC1991. 找到数组的中间位置.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="二分查找基础_有序数组.cpp">
+    <ClCompile Include="算法基础\滑动窗口\LC_LCR 007. 三数之和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC875爱吃香蕉的珂珂.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\Leetcode342 4的幂.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="二维前缀和.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\刘春英_一维和二维递推问题示例.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="二维差分.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\Leetcode231 2的幂.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="刘春英_例题.cpp">
+    <ClCompile Include="数学基础\杂顶\两整数除法向上取整.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="例题出现次数小于m次的数_面试题.cpp">
+    <ClCompile Include="算法基础\二分\二分无序数组_LC162寻找峰值.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="例题大于等于n最小的二次幂.cpp">
+    <ClCompile Include="算法基础\二分\二分查找基础_有序数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="单调栈.cpp">
+    <ClCompile Include="算法基础\二分答案法\LC875爱吃香蕉的珂珂.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="单调队列.cpp">
+    <ClCompile Include="算法基础\前缀和\二维前缀和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="双指针概念篇.cpp">
+    <ClCompile Include="算法基础\差分\二维差分.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="双端队列.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\刘春英_例题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="可以翻转一次的情况下子数组最大累加和.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\例题出现次数小于m次的数_面试题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="可以翻转一次的情况下子数组最大累加和_对拍.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\例题大于等于n最小的二次幂.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="同余原理.cpp">
+    <ClCompile Include="数据结构\单调栈\单调栈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="基数排序.cpp">
+    <ClCompile Include="数据结构\单调队列\单调队列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="堆排序.cpp">
+    <ClCompile Include="算法基础\双指针\双指针概念篇.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="堆结构.cpp">
+    <ClCompile Include="数据结构\队列\双端队列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="如何对有序数组中的元素去重.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\可以翻转一次的情况下子数组最大累加和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="一维差分.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\可以翻转一次的情况下子数组最大累加和_对拍.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="子序列必须被7整除的最大累加和.cpp">
+    <ClCompile Include="数学基础\同余原理\同余原理.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="子序列必须被7整除的最大累加和_对拍.cpp">
+    <ClCompile Include="算法基础\排序\基数排序\基数排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="字典树模板.cpp">
+    <ClCompile Include="数据结构\堆\堆排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="平均值最小的累加和.cpp">
+    <ClCompile Include="数据结构\堆\堆结构.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="并查集.cpp">
+    <ClCompile Include="算法基础\补充\如何对有序数组中的元素去重.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="并查集模板_牛客并查集的实现.cpp">
+    <ClCompile Include="算法基础\差分\一维差分.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="拓扑排序.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\子序列必须被7整除的最大累加和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="最小生成树.cpp">
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\子序列必须被7整除的最大累加和_对拍.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="最小生成树Kruskal算法.cpp">
+    <ClCompile Include="数据结构\字典树trie\字典树模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="最小生成树Prim算法.cpp">
+    <ClCompile Include="贪心\平均值最小的累加和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="有效涂色问题.cpp">
+    <ClCompile Include="数据结构\并查集\并查集.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="枚举子集的技巧.cpp">
+    <ClCompile Include="数据结构\并查集\并查集模板_牛客并查集的实现.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1048采药.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\拓扑排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1064金明的预算方案.cpp">
+    <ClCompile Include="图论\最小生成树MST\最小生成树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1127词链.cpp">
+    <ClCompile Include="图论\最小生成树MST\最小生成树Kruskal算法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P12331最大开支.cpp">
+    <ClCompile Include="图论\最小生成树MST\最小生成树Prim算法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1253.cpp">
+    <ClCompile Include="动态规划\二维动态规划\有效涂色问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1341无序字母对.cpp">
+    <ClCompile Include="动态规划\状压dp\枚举子集的技巧.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1352没有上司的舞会.cpp">
+    <ClCompile Include="动态规划\背包dp\01背包\洛谷P1048采药.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1379八数码难题.cpp">
+    <ClCompile Include="动态规划\背包dp\有依赖的背包\洛谷P1064金明的预算方案.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1439两个排列的最长公共子序列.cpp">
+    <ClCompile Include="图论\欧拉路径\洛谷P1127词链.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1616完全背包模板.cpp">
+    <ClCompile Include="贪心\洛谷P12331最大开支.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1637三元上升子序列.cpp">
+    <ClCompile Include="数据结构\线段树\区间重置＋区间增加+区间最大值\洛谷P1253.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1757通天之分组背包.cpp">
+    <ClCompile Include="图论\欧拉路径\洛谷P1341无序字母对.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1759通天之潜水.cpp">
+    <ClCompile Include="动态规划\树形dp\洛谷P1352没有上司的舞会.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1776宝物筛选.cpp">
+    <ClCompile Include="图论\最短路\A-star\洛谷P1379八数码难题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1807最长路.cpp">
+    <ClCompile Include="动态规划\动态规划中根据数据量猜解法的技巧\洛谷P1439两个排列的最长公共子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1809过河问题.cpp">
+    <ClCompile Include="动态规划\背包dp\完全背包\洛谷P1616完全背包模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1883樱花.cpp">
+    <ClCompile Include="数据结构\树状数组\洛谷P1637三元上升子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1908逆序对_归并分治.cpp">
+    <ClCompile Include="动态规划\背包dp\分组背包\洛谷P1757通天之分组背包.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1908逆序对_树状数组.cpp">
+    <ClCompile Include="动态规划\动态规划中得到具体决策方案的技巧\洛谷P1759通天之潜水.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2014选课.cpp">
+    <ClCompile Include="动态规划\背包dp\多重背包\洛谷P1776宝物筛选.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2014选课_优化.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\DAG dp\洛谷P1807最长路.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2016战略游戏.cpp">
+    <ClCompile Include="贪心\洛谷P1809过河问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2330繁忙的都市%28最小瓶颈树%29.cpp">
+    <ClCompile Include="动态规划\背包dp\多重背包\洛谷P1883樱花.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2391白雪皑皑.cpp">
+    <ClCompile Include="数据结构\树状数组\洛谷P1908逆序对_归并分治.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2602数字计数.cpp">
+    <ClCompile Include="数据结构\树状数组\洛谷P1908逆序对_树状数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2657windy数.cpp">
+    <ClCompile Include="动态规划\树形dp\树上背包\洛谷P2014选课.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2731骑马修栅栏.cpp">
+    <ClCompile Include="动态规划\树形dp\树上背包\洛谷P2014选课_优化.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2910ClearAndPresentDangerS.cpp">
+    <ClCompile Include="动态规划\树形dp\洛谷P2016战略游戏.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2918BuyingHayS.cpp">
+    <ClCompile Include="图论\最小生成树MST\洛谷P2330繁忙的都市%28最小瓶颈树%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3205合唱队.cpp">
+    <ClCompile Include="数据结构\并查集\洛谷P2391白雪皑皑.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3368树状数组2.cpp">
+    <ClCompile Include="动态规划\数位dp\洛谷P2602数字计数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3372模板线段树1.cpp">
+    <ClCompile Include="动态规划\数位dp\洛谷P2657windy数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3374树状数组1.cpp">
+    <ClCompile Include="图论\欧拉路径\洛谷P2731骑马修栅栏.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3385模板负环.cpp">
+    <ClCompile Include="图论\最短路\Floyd\洛谷P2910ClearAndPresentDangerS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3413萌数.cpp">
+    <ClCompile Include="动态规划\背包dp\完全背包\洛谷P2918BuyingHayS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3647模板Floyd.cpp">
+    <ClCompile Include="动态规划\区间dp\洛谷P3205合唱队.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3865模板ST表&amp;RMQ问题.cpp">
+    <ClCompile Include="数据结构\树状数组\一维数组\范围修改单点查询\洛谷P3368树状数组2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P4017最大食物链计数.cpp">
+    <ClCompile Include="数据结构\线段树\区间增加区间查询\洛谷P3372模板线段树1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P4095Eden的新背包问题.cpp">
+    <ClCompile Include="数据结构\树状数组\一维数组\单点修改范围查询\洛谷P3374树状数组1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P4145.cpp">
+    <ClCompile Include="图论\最短路\Bellman-Ford+SPFA\洛谷P3385模板负环.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P4170涂色.cpp">
+    <ClCompile Include="动态规划\数位dp\洛谷P3413萌数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P4281紧急集合.cpp">
+    <ClCompile Include="图论\最短路\Floyd\洛谷P3647模板Floyd.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P4514上帝造题的七分钟.cpp" />
-    <ClCompile Include="洛谷P4568飞行路线.cpp">
+    <ClCompile Include="数据结构\st表\洛谷P3865模板ST表&amp;RMQ问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P4779[模板]单源最短路径(标准版).cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\洛谷P4017最大食物链计数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P4799世界冰球锦标赛.cpp">
+    <ClCompile Include="动态规划\前后缀动态规划\正反跑两遍背包\洛谷P4095Eden的新背包问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P5431模意义下的乘法逆元2.cpp">
+    <ClCompile Include="数据结构\线段树\线段树势能分析\洛谷P4145.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P5490 【模板】扫描线 &amp; 矩形面积并.cpp">
+    <ClCompile Include="动态规划\区间dp\洛谷P4170涂色.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P6033合并果子加强版.cpp">
+    <ClCompile Include="图论\树上问题\树上倍增\洛谷P4281紧急集合.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P6242 【模板】线段树 3（区间最值操作、区间历史最值）.cpp">
+    <ClCompile Include="数据结构\树状数组\二维数组\范围修改范围查询\洛谷P4514上帝造题的七分钟.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P6492STEP.cpp">
+    <ClCompile Include="图论\最短路\分层图最短路\洛谷P4568飞行路线.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P7771模板欧拉路径.cpp">
+    <ClCompile Include="图论\最短路\Dijkstra\洛谷P4779[模板]单源最短路径%28标准版%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P8743异或数列.cpp">
+    <ClCompile Include="图论\树上问题\双向搜索\Meet in the middle\洛谷P4799世界冰球锦标赛.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P8776最长不下降子序列.cpp">
+    <ClCompile Include="数学基础\逆元\洛谷P5431模意义下的乘法逆元2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷T386911最长上升子序列输出解.cpp">
+    <ClCompile Include="计算几何\扫描线\洛谷P5490 【模板】扫描线 &amp; 矩形面积并.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷字典序最小的拓扑排序.cpp">
+    <ClCompile Include="贪心\洛谷P6033合并果子加强版.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="前k小子序列和_对拍.cpp">
+    <ClCompile Include="数据结构\线段树\线段树的历史最值\洛谷P6242 【模板】线段树 3（区间最值操作、区间历史最值）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="加入差值绝对值直到长度固定.cpp">
+    <ClCompile Include="数据结构\线段树\线段树解决区间合并问题\洛谷P6492STEP.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客二叉树.cpp">
+    <ClCompile Include="图论\欧拉路径\洛谷P7771模板欧拉路径.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客拓扑排序.cpp">
+    <ClCompile Include="博弈论\洛谷P8743异或数列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客括号区间匹配.cpp">
+    <ClCompile Include="动态规划\最长递增子序列问题及其扩展\洛谷P8776最长不下降子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客牛牛的背包问题.cpp">
+    <ClCompile Include="动态规划\动态规划中得到具体决策方案的技巧\洛谷T386911最长上升子序列输出解.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客知识竞赛.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\洛谷字典序最小的拓扑排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客累加和不超过k的最长子数组.cpp">
+    <ClCompile Include="动态规划\前k小子序列和\前k小子序列和_对拍.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客贿赂怪兽.cpp">
+    <ClCompile Include="贪心\加入差值绝对值直到长度固定.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="矩阵快速幂中找关系矩阵的方法.cpp">
+    <ClCompile Include="动态规划\二维动态规划\牛客二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="线段树区间增加区间最大值查询.cpp">
+    <ClCompile Include="图论\树上问题\拓扑排序\牛客拓扑排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="线段树区间重置+区间增加+区间累加和.cpp">
+    <ClCompile Include="动态规划\区间dp\牛客括号区间匹配.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="线段树区间重置区间最大值查询.cpp">
+    <ClCompile Include="图论\树上问题\双向搜索\Meet in the middle\牛客牛牛的背包问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="线段树实现范围重置范围查询.cpp">
+    <ClCompile Include="贪心\牛客知识竞赛.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="邻接矩阵建图.cpp">
+    <ClCompile Include="动态规划\动态规划中用观察优化枚举的技巧\牛客累加和不超过k的最长子数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2698[USACO12MAR] Flowerpot S优化.cpp">
+    <ClCompile Include="动态规划\动态规划中根据数据量猜解法的技巧\牛客贿赂怪兽.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P2698[USACO12MAR] Flowerpot S自己的解法.cpp">
+    <ClCompile Include="数学基础\矩阵快速幂\矩阵快速幂优化dp\矩阵快速幂中找关系矩阵的方法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3367[模板]并查集.cpp">
+    <ClCompile Include="数据结构\线段树\区间增加区间最大值查询\线段树区间增加区间最大值查询.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客单调栈结构_STL单调栈模板.cpp">
+    <ClCompile Include="数据结构\线段树\区间重置+区间增加+区间累加和\线段树区间重置+区间增加+区间累加和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客单调栈结构_静态数组单调栈模板.cpp">
+    <ClCompile Include="数据结构\线段树\区间重置区间最大值查询\线段树区间重置区间最大值查询.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客和为K的连续子数组.cpp">
+    <ClCompile Include="数据结构\线段树\区间重置区间查询\线段树实现范围重置范围查询.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客大雨吃小鱼.cpp">
+    <ClCompile Include="图论\建图\邻接矩阵建图.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客字典树的实现.cpp">
+    <ClCompile Include="数据结构\单调队列\洛谷P2698[USACO12MAR] Flowerpot S优化.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客字符串的全部子序列.cpp">
+    <ClCompile Include="数据结构\单调队列\洛谷P2698[USACO12MAR] Flowerpot S自己的解法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="异或运算的应用.cpp">
+    <ClCompile Include="数据结构\并查集\洛谷P3367[模板]并查集.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="归并排序.cpp">
+    <ClCompile Include="数据结构\单调栈\牛客单调栈结构_STL单调栈模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="循环节优化.cpp">
+    <ClCompile Include="数据结构\单调栈\牛客单调栈结构_静态数组单调栈模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="快速幂+取模模板.cpp">
+    <ClCompile Include="算法基础\前缀信息的构建\牛客和为K的连续子数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="快速幂.cpp">
+    <ClCompile Include="数据结构\单调栈\牛客大雨吃小鱼.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="快速幂模板.cpp">
+    <ClCompile Include="数据结构\字典树trie\牛客字典树的实现.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="手写顺序表.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\牛客字符串的全部子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="手写顺序表模板.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\异或运算的应用.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="5.杨辉三角.cpp">
+    <ClCompile Include="算法基础\排序\归并排序\归并排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="打印输出二进制整数.cpp">
+    <ClCompile Include="数学基础\循环节\循环节优化.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="提取二进制状态中最右侧的1.cpp">
+    <ClCompile Include="数学基础\乘法快速幂\快速幂+取模模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="插入排序模板.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\快速幂.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="数组模拟栈.cpp">
+    <ClCompile Include="数学基础\乘法快速幂\快速幂模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="数组模拟队列.cpp">
+    <ClCompile Include="数据结构\顺序表\手写顺序表.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="map.cpp">
+    <ClCompile Include="数据结构\顺序表\手写顺序表模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客接头密钥.cpp">
+    <ClCompile Include="数据结构\顺序表\5.杨辉三角.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客消灭怪物.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\打印输出二进制整数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="环形队列.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\提取二进制状态中最右侧的1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="离散化模板.cpp">
+    <ClCompile Include="算法基础\排序\插入排序\插入排序模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="线段最多重合问题.cpp">
+    <ClCompile Include="数据结构\栈\数组模拟栈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="结构体数组模拟单向链表.cpp">
+    <ClCompile Include="数据结构\队列\数组模拟队列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="最大公约数gcd.cpp">
+    <ClCompile Include="STL\map\map.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="最小公倍数lcm.cpp">
+    <ClCompile Include="数据结构\字典树trie\牛客接头密钥.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="杨辉三角优化版.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\牛客消灭怪物.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="位运算符与赋值运算符的结合使用.cpp">
+    <ClCompile Include="数据结构\队列\环形队列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="LC88. 合并两个有序数组.cpp">
+    <ClCompile Include="算法基础\离散化\离散化模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="快速幂应用1.cpp">
+    <ClCompile Include="数据结构\堆\线段最多重合问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="一维二阶差分_洛谷P4231三步必杀.cpp">
+    <ClCompile Include="数据结构\单向链表\结构体数组模拟单向链表.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="n阶汉诺塔.cpp">
+    <ClCompile Include="数学基础\同余原理\最大公约数gcd.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P1996 约瑟夫问题.cpp">
+    <ClCompile Include="数学基础\同余原理\最小公倍数lcm.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P3397地毯.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\杨辉三角优化版.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="洛谷P5026Lycanthropy.cpp">
+    <ClCompile Include="算法基础\二进制与位运算\位运算符与赋值运算符的结合使用.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="滑动窗口概念.cpp">
+    <ClCompile Include="算法基础\排序\冒泡排序\LC88. 合并两个有序数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客【模板】二维差分.cpp">
+    <ClCompile Include="数学基础\乘法快速幂\快速幂应用1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客机器人跳跃问题.cpp">
+    <ClCompile Include="算法基础\差分\一维二阶差分_洛谷P4231三步必杀.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="牛客计算数组的小和.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\n阶汉诺塔.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="离散化_LCP74最强祝福力场.cpp">
+    <ClCompile Include="数据结构\单向链表\洛谷P1996 约瑟夫问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="第k小第k大.cpp">
+    <ClCompile Include="算法基础\差分\洛谷P3397地毯.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="红绿灯标记法.cpp">
+    <ClCompile Include="算法基础\差分\洛谷P5026Lycanthropy.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="能被11,111,1111表示的数.cpp">
+    <ClCompile Include="算法基础\滑动窗口\滑动窗口概念.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="蓝桥云课优质数对.cpp">
+    <ClCompile Include="算法基础\差分\牛客【模板】二维差分.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="蓝桥云课全部都有的子序列.cpp">
+    <ClCompile Include="算法基础\二分答案法\牛客机器人跳跃问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="蓝桥云课字符串统计.cpp">
+    <ClCompile Include="分治\归并分治\牛客计算数组的小和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="蓝桥云课字符统计.cpp">
+    <ClCompile Include="算法基础\离散化\离散化_LCP74最强祝福力场.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="蓝桥云课挑选子串.cpp">
+    <ClCompile Include="算法基础\二分答案法\第k小第k大.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="蓝桥云课最长子串.cpp">
+    <ClCompile Include="算法基础\二分\红绿灯标记法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="蓝桥云课等腰三角形.cpp">
+    <ClCompile Include="数学基础\杂顶\能被11,111,1111表示的数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="计数排序模板.cpp">
+    <ClCompile Include="算法基础\映射\蓝桥云课优质数对.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="选择排序.cpp">
+    <ClCompile Include="算法基础\滑动窗口\蓝桥云课全部都有的子序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="单向链表模板.cpp">
+    <ClCompile Include="算法基础\映射\蓝桥云课字符串统计.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="逐次取模+循环节.cpp">
+    <ClCompile Include="算法基础\映射\蓝桥云课字符统计.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="递归函数实现逆序栈.cpp">
+    <ClCompile Include="算法基础\滑动窗口\蓝桥云课挑选子串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="邻接表建图.cpp">
+    <ClCompile Include="算法基础\滑动窗口\蓝桥云课最长子串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="链式前向星建图.cpp">
+    <ClCompile Include="算法基础\双指针\蓝桥云课等腰三角形.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="阶乘逆元递推(应用于组合数公式).cpp">
+    <ClCompile Include="算法基础\排序\计数排序\计数排序模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="随机快速排序.cpp">
+    <ClCompile Include="算法基础\排序\选择排序\选择排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="随机选择算法.cpp">
+    <ClCompile Include="数据结构\单向链表\单向链表模板.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="高精度加法.cpp">
+    <ClCompile Include="数学基础\循环节\逐次取模+循环节.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="魔法卷轴.cpp">
+    <ClCompile Include="算法基础\递归和递推基础\递归函数实现逆序栈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="魔法卷轴_对拍.cpp">
+    <ClCompile Include="图论\建图\邻接表建图.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="图论\建图\链式前向星建图.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="数学基础\逆元\阶乘逆元递推%28应用于组合数公式%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="算法基础\排序\随机快速排序\随机快速排序.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="算法基础\排序\随机快速排序\随机选择算法.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="算法基础\高精度\高精度加法.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\魔法卷轴.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="动态规划\子数组最大累加和问题及扩展\魔法卷轴_对拍.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="单点修改区间查询.md" />
-    <None Include="范围修改范围查询.md" />
+    <None Include="数据结构\树状数组\二维数组\单点修改区间查询\单点修改区间查询.md" />
+    <None Include="数据结构\树状数组\二维数组\范围修改范围查询\范围修改范围查询.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
